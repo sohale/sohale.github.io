@@ -1,14 +1,15 @@
 <!doctype html>
 <meta charset="UTF-8">
-<html ng-app>
+<html ng-app="myApp">
 <head>
-    <title>My Angular App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <title>Sohail's Homepage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+    </script>
+    <!-- See https://angularjs.org/ -->
 </head>
 
 <body>
 
-<div ng-app="myApp" ng-controller="customersCtrl"> 
 
   Homepage.<br/>
   <h2>Sohail Siadatnejad</h2>
@@ -18,30 +19,40 @@
   Neuroscience<br/>
   <br/>
 
+<div ng-controller="customersCtrl"> 
+
+Skills:
 <table>
   <tr ng-repeat="x in skills">
-    <td>{{ x.name }}</td>
-    <td>{{ x.level }}</td>
+    <td><b>{{ x.name }}</b></td>
+    <td>({{ x.level }})</td>
     <td>{{ x.desc }}</td>
   </tr>
 </table>
 
+<!--
+<input type="text" ng-model="yourEmail" placeholder="empty">
+ placeholder = Enter your email here
+<h1>Hello {{yourEmail}}!</h1> -->
 </div>
 
 <script>
 var app = angular.module('myApp', []);
 app.controller('customersCtrl', function($scope, $http) {
-
+    /*
     $http
         .get("http://www.w3schools.com/angular/customers.php")
         .then(function (response) {$scope.names = response.data.records;});
-
+    */
     $scope.skills =
     [
-        {"name": "C++", "level": "higher advanced", "desc": "C++14, teaching experience (6 month), programming."},
+        {"name": "C++", "level": "higher advanced", "desc": "C++14, teaching experience (6 month), programming.", "see-also": "Emscripten" /*related*/},
+        {"name": "Java", "level": "higher advanced", "desc": "Since 1997."},
+        {"name": "Python", "level": "higher advanced", "desc": "2 years commercial."},
     ];
 
 });
+console.log("Here1");
 
 </script>
 
