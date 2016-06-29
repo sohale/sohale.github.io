@@ -2,13 +2,15 @@
 <meta charset="UTF-8">
 <html ng-app="myApp">
 <head>
-    <title>Sohail's Homepage</title>
+    <title>Sohail's homepage</title>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
     </script>
     <!-- See https://angularjs.org/ -->
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body style="font-family: 'Roboto', sans-serif;">
 
 
   Homepage.<br/>
@@ -57,6 +59,7 @@ app.controller('customersCtrl', function($scope, $http) {
     ];
 
 });
+console.log(new Date());
 console.log("Fine.");
 
 </script>
@@ -68,3 +71,9 @@ Membership
 -->
 </body>
 </html>
+
+<!-- todo:
+https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Roboto 
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+-->
