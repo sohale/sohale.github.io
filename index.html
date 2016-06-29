@@ -3,7 +3,7 @@
 <html ng-app="myApp">
 <head>
     <title>Sohail's Homepage</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
     </script>
     <!-- See https://angularjs.org/ -->
 </head>
@@ -46,17 +46,25 @@ app.controller('customersCtrl', function($scope, $http) {
     */
     $scope.skills =
     [
-        {"name": "C++", "level": "higher advanced", "desc": "C++14, teaching experience (6 month), programming.", "see-also": "Emscripten" /*related*/},
-        {"name": "Java", "level": "higher advanced", "desc": "Since 1997."},
-        {"name": "Python", "level": "higher advanced", "desc": "2 years commercial."},
+        {"name": "C++",
+            "level": "higher advanced", "desc": "C++14, teaching experience, programming.", "see-also": "Emscripten" /*related*/, "priority": 1},
+        {"name": "Java",
+            "level": "higher advanced", "desc": "Since 1997.", "priority": 1},
+        {"name": "Python",
+            "level": "higher advanced", "desc": "2 years commercial.", "priority": 1},
+        {"name": "C",
+            "level": "...", "desc": "", "see-also": "", "priority": -3},
     ];
 
 });
-console.log("Here1");
+console.log("Fine.");
 
 </script>
 
-
-
+<!--
+<footer>
+Membership
+</footer>
+-->
 </body>
 </html>
