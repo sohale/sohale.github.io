@@ -1,15 +1,51 @@
 <!doctype html>
+<meta charset="UTF-8">
 <html ng-app>
-  <head>
+<head>
     <title>My Angular App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
+
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+
+  Homepage.<br/>
   <h2>Sohail Siadatnejad</h2>
   C++<br/>
   Python<br/>
   <br/>
   Neuroscience<br/>
   <br/>
-  </body>
+
+<table>
+  <tr ng-repeat="x in skills">
+    <td>{{ x.name }}</td>
+    <td>{{ x.level }}</td>
+    <td>{{ x.desc }}</td>
+  </tr>
+</table>
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+
+    $http
+        .get("http://www.w3schools.com/angular/customers.php")
+        .then(function (response) {$scope.names = response.data.records;});
+
+    $scope.skills =
+    [
+        {"name": "C++", "level": "higher advanced", "desc": "C++14, teaching experience (6 month), programming."},
+    ];
+
+});
+
+</script>
+
+
+
+</body>
 </html>
