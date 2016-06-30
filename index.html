@@ -34,7 +34,17 @@
   <a href="./neurosci.html">Neuroscience</a><br/>
   <br/>
 
-<div style="visibility: hidden;">
+<input ng-model=collapse_cs type=checkbox> 
+<a NOT_ng-click="doSomething($event)" href="">cs stuff</a>
+
+
+
+
+
+
+
+
+<div  ng-show=collapse_cs style="NOT_visibility: hidden;">
 <hr/>
 <div>
 <h4>Achievements in CS:</h4>
@@ -129,7 +139,7 @@ Politics: (not mass but limbic).
 </div>
 <div ng-controller="customersCtrl"> 
 
-Skills:
+<h3>Skills:</h3>
 <table>
   <tr ng-repeat="x in skills">
     <td><b>{{ x.name }}</b></td>
@@ -147,6 +157,14 @@ Skills:
 <script>
 var app = angular.module('myApp', []);
 app.controller('customersCtrl', function($scope, $http) {
+
+    /*
+    $scope.doSomething = function(ev) {
+        var element = ev.srcElement ? ev.srcElement : ev.target;
+        console.log(element, angular.element(element))
+        //...
+    };
+    */
     /*
     $http
         .get("http://www.w3schools.com/angular/customers.php")
