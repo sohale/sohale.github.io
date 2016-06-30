@@ -4,6 +4,17 @@
 <head>
     <title>Sohail's homepage</title>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+        <script>
+        </script>
+        <script>
+            var angular;
+            if(!angular){
+                console.log("CDN not found. Using local.");
+            }
+        </script>
+        <!-- TODO: load local ./ only if CDN not found.  -->
+        <script src="./angular.min.1.5.7.js">
+        </script>
     </script>
     <!-- See https://angularjs.org/ -->
 
@@ -15,12 +26,107 @@
 
   Homepage.<br/>
   <h2>Sohail Siadatnejad</h2>
-  C++<br/>
-  Python<br/>
+  HPC, real-time, low-latency, distributed, concurrent.<br/>
+  C++. Python. Java. VHDL.<br/>
   <br/>
-  Neuroscience<br/>
+  <a href="">CS work</a>
+  <br/>
+  <a href="./neurosci.html">Neuroscience</a><br/>
   <br/>
 
+<div style="visibility: hidden;">
+<hr/>
+<div>
+<h4>Achievements in CS:</h4>
+A Cloud Scheduler. (Python; 2014) <a href="http://wide.io">link</a><br/>
+Distributed File system (Python; 2014) <a href="http://wide.io">link</a><br/>
+A 3D rendering (raytracing) Engine (Pascal, Java; 1995).<br/>
+A full 3D solid modelling Engine based on Implicit Surfaces (Python, C++, JS/Emscripten; 2016)<br/>
+A real-time audio engineering platform on 0x86 (C++; 1999; featuring Generative Programming). <br/>
+Digital audio processing SPDIF with zero latency (Hardware project; (VHDL/FPGA; 2001) [Winner of FDC]<br/>
+Python package for unbiased estimation of entropy-based non-parametrical distributions (with M.M.; 2014)<br/>
+Efficient parallel calculation of multivariate Gaussian CDF on GPU (CUDA; 2013).
+</div>
+<hr/>
+<div>
+<h4>CS hobby implementations (finished):</h4>
+GPSS even-based simulation engine with visualisation (Java). <br/>
+A remote terminal for Windows-95 (1998; prior to VNC).<br/>
+A glyph description language, used for Farsi fonts (Java; 1998).<br/>
+Stereoscopic image, algorithm + software. [winner: Established as the first person in Iran in a competition.] <br/>
+An editor for loading text files with <b>infinite</b> size (1996) <!--[Sublime style]-->. <br/>
+A bidirectional faris editor applet (1997)<br/>
+A library and command-line toolkit for image-procesing (1997). <br/>
+A library for AVS visualisation (similar to VVV) (Java) 2000. <br/>
+</div>
+<hr/>
+<div>
+<!-- hide -->
+<h4>Incomplete CS projects:</h4>
+A 2D physics simulation engine (1998). <br/>
+A Z80 minimum system (Hardwre; 1992-1993) <br/>
+General purpose processor definition language (behavioural hardware modelling, HW/SW codesign) <br/>
+<!-- General purpose ??? <br/> -->
+A text-based universal computation model and programming language (similar to awk/sed; 1998) <br/>
+<!--Neural netowrks implementations since -->
+A new event-based GUI system inspired by SmallTalk, plus a SP programming language. <br/>
+A POSTSCRIPT and Forth interpreter. <br/>
+Dilmaj Together; a crowd language development (in progress) <br/>
+An efficient and flexible Deep Learning Open-Source library for FPGA (in progress).<br/>
+<!-- Information earth-moving and Info-theoretic interpretation of Turing machines -->
+<!-- A Java-based web-framework for menues, etc. Based on Java's syntax. (Java, Java EE) -->
+<!--
+<h4>Small  projects:</h4>
+Interactive IFS fractal generation.
+Electrical fields.
+Real-time 3D demos.
+Assembly loading BMP.
+-->
+<!--
+First implementation of Implicit Surfaces in 1995 (Ray-tracing).
+First implementation of Stereoscopic/Magic eye (first in Iran).
+First person in Iran in 3DBig and Mehr32 projects.
+-->
+<h4>Teaching experience:</h4>
+Taught Dta Structures (Selected chapters from CLRS book; SUT).
+Taught C++ (based on modern C++ design; Accelerated C++; SUT).
+Taught Java programming (SUT, SBU; IIC)  <!-- Iran Insurrance company -->
+</div>
+
+<div>
+<h4>Achievements in Neurosciece:</h4>
+Revealed a new coding scheme in primary somatosensory cortex (rat)<br/>
+<!-- high fidelity of the timing of the thalamocortical signals -->
+Revealed the image-forming function of a new class of retina receptrs (mice)<br/>
+Revealed new aspects of the Phase-of-firing code in sensory cortices (Monkey V1).<br/>
+Invented (pinoneer in) the Quantum Asummetric Cloning Machines (2003, published in 2005).<br/>
+Some other new findings in Neuroscience (unpublished).<br/>
+Some new developments in Information Theory (in progress; unpublished).<br/>
+</div>
+
+
+<!-- Future directions and interests:
+Reversible computing (semi-reversible computing: trade-off).
+Multi-scale GC/Landau-based architecture (+ bands).
+(multi-scale prog-lang)
+(data-moving prog-lang).
+Information Geometry.
+An extention to C++.
+[Bayesian Networks-based flow / as by Polani/Pearl/Ay]
+[Impedance mathcing, network-max-ent, maxVARI and ... (based on that Bayesian Epist. book) ]
+Information-based epistemology.
+Information Ontology (and life).
+(Dynamics. Universal scale-free properties. (also good for scale-free analysis.). Impedance.)
+
+
+CS (low): new generative languages.
+
+Philosophy: Hegel electric: Hegel/Shannon synergy.
+Politics: (not mass but limbic).
+-->
+<!--<div>Entrepr. ideas: Reversible computing. -->
+
+</div>
 <div ng-controller="customersCtrl"> 
 
 Skills:
