@@ -29,13 +29,18 @@
   HPC, real-time, low-latency, distributed, concurrent.<br/>
   C++. Python. Java. VHDL.<br/>
   <br/>
-  <a href="">CS work</a>
+  Demos: <a href="mc.html">MC</a> 2 3<br/>
+
+<!--  <a href="">CS work</a>-->
+<input ng-model=collapse_cs type=checkbox> 
+<a NOT_ng-click="doSomething($event)" href="">
+CS work</a>
+
   <br/>
+<input ng-model=collapse_ns type=checkbox> 
   <a href="./neurosci.html">Neuroscience</a><br/>
   <br/>
 
-<input ng-model=collapse_cs type=checkbox> 
-<a NOT_ng-click="doSomething($event)" href="">cs stuff</a>
 
 
 
@@ -103,17 +108,7 @@ Taught C++ (based on modern C++ design; Accelerated C++; SUT).
 Taught Java programming (SUT, SBU; IIC)  <!-- Iran Insurrance company -->
 </div>
 
-<div>
-<h4>Achievements in Neurosciece:</h4>
-Revealed a new coding scheme in primary somatosensory cortex (rat)<br/>
-<!-- high fidelity of the timing of the thalamocortical signals -->
-Revealed the image-forming function of a new class of retina receptrs (mice)<br/>
-Revealed new aspects of the Phase-of-firing code in sensory cortices (Monkey V1).<br/>
-Invented (pinoneer in) the Quantum Asummetric Cloning Machines (2003, published in 2005).<br/>
-Some other new findings in Neuroscience (unpublished).<br/>
-Some new developments in Information Theory (in progress; unpublished).<br/>
-</div>
-
+<!-- ns -->
 
 <!-- Future directions and interests:
 Reversible computing (semi-reversible computing: trade-off).
@@ -137,6 +132,22 @@ Politics: (not mass but limbic).
 <!--<div>Entrepr. ideas: Reversible computing. -->
 
 </div>
+
+<div ng-show=collapse_ns>
+<div>
+<h4>Achievements in Neurosciece:</h4>
+Revealed a new coding scheme in primary somatosensory cortex (rat)<br/>
+<!-- high fidelity of the timing of the thalamocortical signals -->
+Revealed the image-forming function of a new class of retina receptrs (mice)<br/>
+Revealed new aspects of the Phase-of-firing code in sensory cortices (Monkey V1).<br/>
+Invented (pinoneer in) the Quantum Asummetric Cloning Machines (2003, published in 2005).<br/>
+Some other new findings in Neuroscience (unpublished).<br/>
+Some new developments in Information Theory (in progress; unpublished).<br/>
+</div>
+
+</div>
+
+
 <div ng-controller="customersCtrl"> 
 
 <h3>Skills:</h3>
