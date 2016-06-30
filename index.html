@@ -21,6 +21,33 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /*minimum-width: 120px;*/
+    background-color: #ff8;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+
+
 <body style="font-family: 'Roboto', sans-serif;">
 
 
@@ -155,7 +182,11 @@ Some new developments in Information Theory (in progress; unpublished).<br/>
   <tr ng-repeat="x in skills">
     <td><b>{{ x.name }}</b></td>
     <td>({{ x.level }})</td>
-    <td>{{ x.desc }}</td>
+    <td>
+        <div class="tooltip">{{ x.desc }}
+            <span class="tooltiptext">{{ x.featuring ? x.featuring : "&nbsp;&nbsp;--&nbsp;&nbsp;" }}</span>
+        </div>
+    </td>
   </tr>
 </table>
 
@@ -184,13 +215,14 @@ app.controller('customersCtrl', function($scope, $http) {
     $scope.skills =
     [
         {"name": "C++",
-            "level": "higher advanced", "desc": "C++14, teaching experience, programming.", "see-also": "Emscripten" /*related*/, "priority": 1},
+            "level": "higher advanced", "desc": "C++14, teaching experience, programming.", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
         {"name": "Java",
-            "level": "higher advanced", "desc": "Since 1997.", "priority": 1},
+            "level": "higher advanced", "desc": "Since 1997.", featuring: null, "priority": 1},
         {"name": "Python",
             "level": "higher advanced", "desc": "2 years commercial.", "priority": 1},
         {"name": "C",
-            "level": "...", "desc": "", "see-also": "", "priority": -3},
+            "level": "...", "desc": "", "see-also": "", featuring: "4", "priority": -3},
+        // Core programming, algorithm design
     ];
 
 });
