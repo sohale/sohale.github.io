@@ -1,8 +1,29 @@
-<html>
+<!doctype html>
+<meta charset="UTF-8">
+<html ng-app="myApp">
+
 <head>
-<style media="screen" type="text/css">
-@import "timeline.css";
-</style>
+
+    <style media="screen" type="text/css">
+        @import "timeline.css";
+    </style>
+
+    <title>Sohail's homepage: Timeline</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+        <script>
+        </script>
+        <script>
+            var angular;
+            if(!angular){
+                console.log("CDN not found. Using local.");
+            }
+        </script>
+        <!-- Load local, only if CDN not found.  -->
+        <script src="./angular.min.1.5.7.js">
+        </script>
+    </script>
+
 </head>
 <body>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -13,6 +34,27 @@
 </td></tr></table>
 <!-- The Timeline -->
 
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('timelineCtrl', function($scope, $http) {
+        $scope.timeline_data =
+        [
+            //HTML content will not work correctly. Todo: Use XML instead.
+
+            //{headline: 'WeDesign.Live!', time: '2016 - present', body: '(<b>CTO</b>); a continuation of my role as the Team Leader of <b>MP5</b>, which was later known as WeDesign.Live! Led and implemented a full Solid Modeling engine based on Simplicit Surfaces, which is incorporated into the MP5 designer! <a href="http://wedesign.live">http://wedesign.live</a> Featugin: A full solid-modelling engine (first standalone commercial modelling engine based on Implicit Surfaces), Real-time 3D collaboration (first time in the world).'},
+            
+            {headline: "headline1", time: "time1", body: "body1"},
+            {headline: "headline2", time: "time2", body: "body2"},
+            {headline: "headline3", time: "time3", body: "body3"},
+        ]
+
+});
+console.log(new Date());
+console.log("Fine.");
+</script>
+
+
 <ul class="timeline">
 
     <!-- Item 1 -->
@@ -22,7 +64,7 @@
                 <span class="flag">WeDesign.Live!</span>
                 <span class="time-wrapper"><span class="time">2016 - present</span></span>
             </div>
-            <div class="desc">(<b>CTO</b>); a continuation of my role as the Team Leader of <b>MP5</b>, which was later known as WeDesign.Live! Led and implemented a full Solid Modeling engine based on Simplicit Surfaces, which is incorporated into the MP5 designer! <a href="http://wedesign.live">http://wedesign.live</a> Featugin: A full solid-modelling engine (first standalone commercial modelling engine based on Implicit Surfaces), Real-time 3D collaboration (first time in the world), </div>
+            <div class="desc">(<b>CTO</b>); a continuation of my role as the Team Leader of <b>MP5</b>, which was later known as WeDesign.Live! Led and implemented a full Solid Modeling engine based on Simplicit Surfaces, which is incorporated into the MP5 designer! <a href="http://wedesign.live">http://wedesign.live</a> Featugin: A full solid-modelling engine (first standalone commercial modelling engine based on Implicit Surfaces), Real-time 3D collaboration (first time in the world).</div>
         </div>
     </li>
 
@@ -195,6 +237,20 @@
     </li>
 
 </ul>
+
+<ul class="timeline"  ng-controller="timelineCtrl">
+    <li ng-repeat="entry   in   timeline_data">
+        <div ng-class="  ($index % 2 ==0) ? 'direction-l' : 'direction-r'  ">
+            <div class="flag-wrapper">
+                <span class="flag">{{entry.headline}}</span>
+                <span class="time-wrapper"><span class="time">{{entry.time}}</span></span>
+            </div>
+            <div class="desc">{{entry.body}}</div>
+        </div>
+    </li>
+
+</ul>
+
 
 <small><small><a href="http://codepen.io/NilsWe/pen/FemfK">NilsWe</a></small></small>
 <br/>
