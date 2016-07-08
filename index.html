@@ -199,8 +199,11 @@ Some new developments in Information Theory (in progress; unpublished).<br/>
 <h1>Hello {{yourEmail}}!</h1> -->
 </div>
 
+<script src="http://eowo.github.io/angular-horizontal-timeline/angular-horizontal-timeline.js"></script>
+<link rel="stylesheet" href="http://eowo.github.io/angular-horizontal-timeline/angular-horizontal-timeline.css">
+
 <script>
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', [  'angular-horizontal-timeline'  ]);
 app.controller('customersCtrl', function($scope, $http) {
 
     /*
@@ -233,6 +236,17 @@ console.log(new Date());
 console.log("Fine.");
 
 </script>
+
+<br/>
+
+Skills H-Timeline<br/>
+
+
+<horizontal-timeline 
+  start-date="2016-05-08" 
+  end-date="2016-09-08"
+  events="[{"date":"2016-07-01","content":"<p>lorem ipsum</p>"},{"date":"2016-07-15","content":"<p>lorem ipsum</p>"}]">
+</horizontal-timeline>
 
 <!--
 <footer>
