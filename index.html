@@ -18,10 +18,10 @@
     </script>
     <!-- See https://angularjs.org/ -->
 
-
+<!--
     <script src="http://eowo.github.io/angular-horizontal-timeline/angular-horizontal-timeline/angular-horizontal-timeline.js"></script>
     <link rel="stylesheet" href="http://eowo.github.io/angular-horizontal-timeline/angular-horizontal-timeline/angular-horizontal-timeline.css">
-
+-->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
@@ -204,7 +204,8 @@ Some new developments in Information Theory (in progress; unpublished).<br/>
 </div>
 
 <script>
-var app = angular.module('myApp', [  'angular-horizontal-timeline'  ]);
+var app = angular.module('myApp', [ ]);
+// ['angular-horizontal-timeline']
 app.controller('customersCtrl', function($scope, $http) {
 
     /*
@@ -238,6 +239,7 @@ console.log("Fine.");
 
 </script>
 
+<!--
 <br/>
 
 Skills H-Timeline<br/>
@@ -248,6 +250,8 @@ Skills H-Timeline<br/>
   end-date="2016-09-08"
   events="[{"date":"2016-07-01","content":"<p>lorem ipsum</p>"},{"date":"2016-07-15","content":"<p>lorem ipsum</p>"}]">
 </horizontal-timeline>
+
+-->
 
 <!--
 <footer>
