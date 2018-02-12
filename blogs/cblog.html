@@ -1,12 +1,33 @@
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- <pre><code class="html">...</code></pre> -->
+
 <!-- todo: move to an uber blog. Select "C" content as a  separate blog. But generate HTML for them. -->
-Did you know?
-C
+<not-center>
+<h2>
+Did you know?</h2>
+<h1>C</h1>
+</not-center>
 <!-- An Advanced C blog. -->
 
-int someFunction(char arg[static 10])
+<pre><code class="C++">
+    int someFunction(char arg[static 10]) {
+</code></pre>
+
 <!-- https://stackoverflow.com/questions/572547/what-does-static-mean-in-c -->
 
+<pre><code class="C++">
 int (*array)[n][m] = malloc(sizeof *array);
+</code></pre>
 <!-- from: https://stackoverflow.com/questions/22530363/whats-the-point-of-vla-anyway -->
 
 <!-- in progress: static in C -->
+
+<li>
+C++-ism:<br/>
+A C++ standard practice that should not be done in proper C.
+</li>
+<!-- Example:
+https://stackoverflow.com/questions/15921495/use-of-apparently-empty-c-function#comment22679048_15921537
+-->
