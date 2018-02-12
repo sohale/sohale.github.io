@@ -2,7 +2,9 @@
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>hljs.initHighlightingOnLoad(); console.log("hi"); console.log(hljs);</script>
+
+
 <!--
 <link rel="stylesheet" href="/path/to/styles/default.css">
 <script src="/path/to/highlight.pack.js"></script>
@@ -19,13 +21,13 @@ Did you know?</h2>
 </not-center>
 <!-- An Advanced C blog. -->
 
-<pre><code class="C++">
+<pre><code class="C hljs">
     int someFunction(char arg[static 10]) {
 </code></pre>
 
 <!-- https://stackoverflow.com/questions/572547/what-does-static-mean-in-c -->
 
-<pre><code class="C++">
+<pre><code class="C ">
 int (*array)[n][m] = malloc(sizeof *array);
 </code></pre>
 <!-- from: https://stackoverflow.com/questions/22530363/whats-the-point-of-vla-anyway -->
