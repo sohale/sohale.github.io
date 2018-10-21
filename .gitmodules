@@ -1,0 +1,3 @@
+[submodule "demos/webgl_triangle_example/webgl-exercise"]
+	path = demos/webgl_triangle_example/webgl-exercise
+	url = https://github.com/sosi-org/webgl-exercise.git
