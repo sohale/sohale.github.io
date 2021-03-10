@@ -13,10 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Checkout submodules
-      uses: srt32/git-actions@v0.0.3
-      with:
-        args: git submodule update --init --recursive
+#
+# From: https://github.com/marketplace/actions/checkout-submodules
+#    - name: Checkout submodules
+#      uses: srt32/git-actions@v0.0.3
+#      with:
+#        args: git submodule update --init --recursive
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
