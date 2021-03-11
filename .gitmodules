@@ -3,5 +3,5 @@
 	url = https://github.com/sosi-org/webgl-exercise.git
 [submodule "demos/implisolid-build"]
 	path = demos/implisolid-build
-	url = git@github.com:sohale/implisolid-build.git
+	url = https://github.com/sohale/implisolid-build.git
 	branch = master
