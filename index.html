@@ -83,16 +83,17 @@ h2 {
 <h3>Research interests (Neuroscience):</h3>
 <div class="div-indent-1">
 <lu>
-    <li>* Information Theory in Neuroscience </li>
-    <li>* Predictive Processing (and Free Energy Principle) </li>
-    <li>* Single Neuron Modelling </li>
-    <li>* Neural codes and Low level sensory </li>
-    <li>* Causality and Information Flow </li>
-    <li>* Computing Science (Data Flow and Quantum Computing) </li>
+    <li> Information Theory in Neuroscience </li>
+    <li> Predictive Processing (and Free Energy Principle) </li>
+    <li> Single Neuron Modelling </li>
+    <li> Neural codes and Low level sensory </li>
+    <li> Causality and Information Flow </li>
+    <li> Computing Science (Data Flow and Quantum Computing) </li>
 </lu>
 </div>
 
 <h3>Demos:</h3>
+<div class="div-indent-1">
 <lu>
     <li>
         <!--
@@ -110,15 +111,16 @@ h2 {
         <a href="http://sohale.github.io/demos/webgl_triangle_example/webgl-exercise/triangle-task/minimal_webgl.html">A WebGL demo</a>
     </li>
 </lu>
+</div>
 <br/>
 
 <h3><tt>micro</tt> CV</h3>
+<div class="div-indent-1">
 <!--  <a href="">CS work</a>-->
 <input ng-model=collapse_cs type=checkbox>
 <a NOT_ng-click="doSomething($event)" href="">
 CS work</a>
 
-  <br/>
 <input ng-model=collapse_ns type=checkbox>
   <a href="./neurosci.html">Neuroscience</a><br/>
   <br/>
@@ -251,6 +253,8 @@ Some new developments in Information Theory (in progress; unpublished).<br/>
 <h1>Hello {{yourEmail}}!</h1> -->
 </div>
 
+</div>
+
 <script>
 var app = angular.module('myApp', [ ]);
 // ['angular-horizontal-timeline']
@@ -272,7 +276,7 @@ app.controller('customersCtrl', function($scope, $http) {
     [
         {"name": "C++",
             "level": "advanced", "desc": "C++14, teaching experience, programming.", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
-        {"name": "JavaScript and NodeJSS",
+        {"name": "JavaScript & node",
             "level": "advanced", "desc": "recent", "see-also": "", featuring: "?", "priority": 1},
         {"name": "Python",
             "level": "advanced", "desc": "2 years commercial.", "priority": 1},
