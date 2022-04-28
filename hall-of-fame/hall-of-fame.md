@@ -7,6 +7,7 @@ My favourite softwares:
 
 Criteria:
 * They are make so well that are difficult not to mention somewhere.
+* When you use them you notice lots of decisions that make you smile.
 * Robust: Practically bugfree. For logic that is usually complicated. Usual software struggle in much simmpler logic.
 * Software Quality that you can feel (their difference).
 * Stretching your imagination
@@ -16,9 +17,20 @@ Criteria:
 * Perfect requirement engineering: Knowing the real needs of users, making them accessible and well organised, especially professional users
 * Each of them proves the perfect software exists.
 
+
+Perfect software are not too many to list.
+You just feel this quale (qualia) when you *experience* them by using them.
+
+Being a perfect software also shows up when it grows: A bad software foundation shows when you add features and grow it.
+
 Notable mention:
 * 🏅 (the famous) **PhotoShop**
 * 🏅 **CoolEdit**
+
+
+I just need to include these too, although I havent' experenced them personally.
+Perfect software are not too many to list, so I must list them.
+* **Sketchpad** -- Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
 
 ### Associagted people:
 
@@ -37,7 +49,7 @@ from NullSoft
 
 Graphically perfect (probably can only come from Utah), elegant simplicity, and later, those visualisations.
 
-Lots of decisions that make you smile
+Lots of decisions that make you smile.
 
 ###  🏅 IntelliJ IDEA
 from JetBrains
