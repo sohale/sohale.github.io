@@ -25,7 +25,12 @@ Criteria:
 Perfect software are not too many to list.
 You just feel this quale (qualia) when you *experience* them by using them.
 
-Being a perfect software also shows up when it grows: A bad software foundation shows when you add features and grow it.
+Being a perfect software also shows up later on when it grows further:
+A bad software foundation shows when you add features and grow it.
+
+These lists are liquid:
+I will move some between the main list, "Notable mentions" and third-grade lists.
+It just takes time and comteplattion to find their right place.
 
 Notable mention:
 * 🏅 **PhotoShop** (the famous)
