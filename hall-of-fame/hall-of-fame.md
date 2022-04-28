@@ -17,6 +17,7 @@ Criteria:
 * Moving the standard: Setting the new standards, while nothing better came after them
 * Perfect requirement engineering: Knowing the real needs of users, making them accessible and well organised, especially professional users
 * Each of them proves the perfect software exists.
+* The magic must be seen in early versions, before somme of them expand into commercial sucesses.
 
 
 Perfect software are not too many to list.
@@ -65,3 +66,7 @@ Well organisaiton of functions
 
 #### 🎗 CoolEdit
 Later: Adobe Audition
+
+## .
+Notable bad software:
+* Spotify, early Facebook, ...
