@@ -112,6 +112,9 @@ However, Unix is larger than a software. It containes most of the computer scien
 
 Too well-known for the main list.
 
+### Others:
+* Apple 1 (Wozniak)
+
 ### Specific aspects
 * _matlab_ -- Matlab's style of defining functions in a pragmatic and simple way never stopped amazing me. I never understoood the magic that drives that style of design. I believe it actually inspired Python.
 * _Mathematica_ -- Just does too many good things. You can find a wealth of mathematcs there.
