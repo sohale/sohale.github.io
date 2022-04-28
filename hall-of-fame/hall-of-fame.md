@@ -8,6 +8,7 @@ My favourite softwares:
 Criteria:
 * They are make so well that are difficult not to mention somewhere.
 * When you use them you notice lots of decisions that make you smile.
+* When you use them, you are amazed that they exist
 * Robust: Practically bugfree. For logic that is usually complicated. Usual software struggle in much simmpler logic.
 * Software Quality that you can feel (their difference).
 * Stretching your imagination
@@ -24,13 +25,13 @@ You just feel this quale (qualia) when you *experience* them by using them.
 Being a perfect software also shows up when it grows: A bad software foundation shows when you add features and grow it.
 
 Notable mention:
-* 🏅 (the famous) **PhotoShop**
+* 🏅 **PhotoShop** (the famous)
 * 🏅 **CoolEdit**
 
 
 I just need to include these too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
-* **Sketchpad** -- Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
+* 🎗 **Sketchpad** -- Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
 
 ### Associagted people:
 
@@ -58,9 +59,9 @@ Jut beyond my imagination. It also worked always pefectly without bugs, while do
 
 
 ### Notable mentions
-#### Photoshop
+#### 🎗 Photoshop
 For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
 Well organisaiton of functions
 
-#### CoolEdit
+#### 🎗 CoolEdit
 Later: Adobe Audition
