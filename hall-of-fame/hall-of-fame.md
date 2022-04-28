@@ -18,6 +18,8 @@ Criteria:
 * Perfect requirement engineering: Knowing the real needs of users, making them accessible and well organised, especially professional users
 * Each of them proves the perfect software exists.
 * The magic must be there, clear in their early versions, before growin up to higher versions, or before some of them expand into grand commercial sucesses.
+* (Usually) provide *complicated* functionality (in a simple, accessible way)
+
 
 
 Perfect software are not too many to list.
@@ -72,6 +74,23 @@ Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
 
 Must have been software-design-ed (software-engineer-ed) in a great way from the outset.
 
+
+### Third grade
+#### 🎗 **git**
+By Mr Linus.
+
+While being perfect, and revolutionaly, and trasforming, the cli is overcomplicated and take time to master. It is awaiting next revolution.
+In all other respects, it is a perfect software.
+
+### 🎗 **bash**
+Unix and bash certainly belong here.
+However, bash has certain annoyances.
+
+The pipe `|` function along can make it inot this list.
+It had the ideas of REST from tohse early times.
+Bash pipes alone are an insightful discovery. Not sure what the sources are.
+
 ## .
 Notable bad software:
 * Spotify, early Facebook, ...
+* Text editors: they constantly evolve, some of them are amazing. But no single one was a revolution. `vscode` is great though.
