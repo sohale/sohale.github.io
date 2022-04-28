@@ -107,7 +107,7 @@ However, Unix is larger than a software. It containes most of the computer scien
 * _matlab_ -- Matlab's style of defining functions in a pragmatic and simple way never stopped amazing me. I never understoood the magic that drives that style of design. I believe it actually inspired Python.
 * _Mathematica_ -- Just does too many good things. You can find a wealth of mathematcs there.
 
-## .
+## N.B.S.
 Notable bad software:
 * Spotify, early Facebook, ...
 * Text editors: they constantly evolve, some of them are amazing. But no single one was a revolution. `vscode` is great though.
