@@ -36,11 +36,11 @@ I will move some between the main list, "Notable mentions" and third-grade lists
 It just takes time and comteplattion to find their right place.
 
 Notable mention:
-* 🏅 **PhotoShop** (the famous)
+
 * 🏅 **CoolEdit**
 
 
-I just need to include these too, although I havent' experenced them personally.
+I just need to include the following too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
 * 🎗 **Sketchpad**
 
@@ -50,7 +50,7 @@ Above software are made by real human beings, not superhumans. They are worth me
 
 * Dmitry Boldyrev
 * Sergey Dmitriev, Valentin Kipyatkov and Eugene Belyaev
-* Thomas Knoll and John Knoll
+
 
 (to be continued)
 
@@ -73,10 +73,12 @@ Jut beyond my imagination. It also worked always pefectly without bugs, while do
 
 ### Notable mentions
 #### 🎗 Photoshop
+By Thomas Knoll and John Knoll
+
 For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
 Well organisaiton of functions
 
-Well-known in populkar culture, but less famous for its engineering/software/design excellence.
+Well-known in popular culture, but less famous for its engineering/software/design excellence.
 
 #### 🎗 CoolEdit
 Later: Adobe Audition
