@@ -17,7 +17,7 @@ Criteria:
 * Moving the standard: Setting the new standards, while nothing better came after them
 * Perfect requirement engineering: Knowing the real needs of users, making them accessible and well organised, especially professional users
 * Each of them proves the perfect software exists.
-* The magic must be seen in early versions, before somme of them expand into commercial sucesses.
+* The magic must be there, clear in their early versions, before growin up to higher versions, or before some of them expand into grand commercial sucesses.
 
 
 Perfect software are not too many to list.
@@ -66,6 +66,11 @@ Well organisaiton of functions
 
 #### 🎗 CoolEdit
 Later: Adobe Audition
+
+#### 🎗 **Sketchpad**
+Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
+
+Must have been software-design-ed (software-engineer-ed) in a great way from the outset.
 
 ## .
 Notable bad software:
