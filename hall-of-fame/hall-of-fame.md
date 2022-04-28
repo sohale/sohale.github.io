@@ -75,6 +75,8 @@ Jut beyond my imagination. It also worked always pefectly without bugs, while do
 For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
 Well organisaiton of functions
 
+Well-known in populkar culture, but less famous for its engineering/software/design excellence.
+
 #### 🎗 CoolEdit
 Later: Adobe Audition
 
