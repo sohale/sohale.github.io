@@ -20,7 +20,8 @@ Criteria:
 * The magic must be there, clear in their early versions, before growin up to higher versions, or before some of them expand into grand commercial sucesses.
 * (Usually) provide *complicated* functionality (in a simple, accessible way)
 * I feel nostalgic after not using them for a while. Maybe because other software did not provide that.
-* You don't feel there is an improvement needed. The problem-solving opportunities of improvement don't happen. Sometimes, whatever you imagine, you can find waays to do it.
+* You don't feel there is an improvement needed. The problem-solving opportunities of improvement don't happen. Sometimes, whatever you imagine, you can find ways to do it.
+* Are examples that are ready in my mind ans examples for people to show possibility of writing good code.
 
 
 
