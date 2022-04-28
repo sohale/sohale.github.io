@@ -94,7 +94,7 @@ It certainly deserves the main list for being compelling and rigorous. But it an
 Unix and bash certainly belong here.
 However, bash has certain annoyances.
 
-The pipe `|` function along can make it inot this list.
+The elegant "pipe" `|` function alone can make it into this list.
 It had the ideas of REST from tohse early times.
 Bash pipes alone are an insightful discovery. Not sure what the sources are.
 
