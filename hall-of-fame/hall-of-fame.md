@@ -88,14 +88,16 @@ Must have been software-design-ed (software-engineer-ed) in a great way from the
 Name: Originally called `Robot Draftsman`
 
 ### Third grade
-#### 🎗 **git**
+The folllowing are too famous for this and area already recognised and appreciated.
+
+#### **git**
 By Linus.
 
 While being perfect, and revolutionaly, and trasforming, the cli is overcomplicated and take time to master. It is awaiting next revolution.
 In all other respects, it is a perfect software.
 It certainly deserves the main list for being compelling and rigorous. But it annoys you too (by being a bit of a git). I feel there is an improvement is needed.
 
-### 🎗 **bash**
+### **bash**
 Unix and bash certainly belong here.
 However, bash has certain annoyances.
 
@@ -105,7 +107,7 @@ Bash pipes alone are an insightful discovery. Not sure what the sources are.
 
 Too well-known for the main list.
 
-### 🎗 **Unix**
+### **Unix**
 The Unix itself. Not explanation is needed.
 
 However, Unix is larger than a software. It containes most of the computer science.
