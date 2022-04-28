@@ -19,6 +19,8 @@ Criteria:
 * Each of them proves the perfect software exists.
 * The magic must be there, clear in their early versions, before growin up to higher versions, or before some of them expand into grand commercial sucesses.
 * (Usually) provide *complicated* functionality (in a simple, accessible way)
+* I feel nostalgic after not using them for a while. Maybe because other software did not provide that.
+* You don't feel there is an improvement needed. The problem-solving opportunities of improvement don't happen. Sometimes, whatever you imagine, you can find waays to do it.
 
 
 
@@ -86,6 +88,7 @@ By Linus.
 
 While being perfect, and revolutionaly, and trasforming, the cli is overcomplicated and take time to master. It is awaiting next revolution.
 In all other respects, it is a perfect software.
+It certainly deserves the main list for being compelling and rigorous. But it annoys you too. I feel there is an improvement is needed.
 
 ### 🎗 **bash**
 Unix and bash certainly belong here.
@@ -94,6 +97,15 @@ However, bash has certain annoyances.
 The pipe `|` function along can make it inot this list.
 It had the ideas of REST from tohse early times.
 Bash pipes alone are an insightful discovery. Not sure what the sources are.
+
+### 🎗 **Unix**
+The Unix itself. Not explanation is needed.
+
+However, Unix is larger than a software. It containes most of the computer science.
+
+### Specific aspects
+* _matlab_ -- Matlab's style of defining functions in a pragmatic and simple way never stopped amazing me. I never understoood the magic that drives that style of design. I believe it actually inspired Python.
+* _Mathematica_ -- Just does too many good things. You can find a wealth of mathematcs there.
 
 ## .
 Notable bad software:
