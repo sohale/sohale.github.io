@@ -33,7 +33,7 @@ I just need to include these too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
 * 🎗 **Sketchpad** -- Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
 
-### Associagted people:
+### Associated people:
 
 Above software are made by real human beings, not superhumans. They are worth mentioning:
 
