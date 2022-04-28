@@ -77,7 +77,7 @@ Must have been software-design-ed (software-engineer-ed) in a great way from the
 
 ### Third grade
 #### 🎗 **git**
-By Mr Linus.
+By Linus.
 
 While being perfect, and revolutionaly, and trasforming, the cli is overcomplicated and take time to master. It is awaiting next revolution.
 In all other respects, it is a perfect software.
