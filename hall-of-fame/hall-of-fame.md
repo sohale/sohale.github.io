@@ -62,6 +62,8 @@ Graphically perfect (probably can only come from Utah), elegant simplicity, and 
 
 Lots of decisions that make you smile.
 
+Name: Earlier version (for Mac) was called `MacAmp`
+
 ###  🏅 IntelliJ IDEA
 from JetBrains
 
@@ -77,10 +79,11 @@ Well organisaiton of functions
 Later: Adobe Audition
 
 #### 🎗 **Sketchpad**
-Sketchpad (a.k.a. Robot Draftsman) by Ivan Sutherland in 1963.
+Sketchpad by Ivan Sutherland in 1963.
 
 Must have been software-design-ed (software-engineer-ed) in a great way from the outset.
 
+Name: Originally called `Robot Draftsman`
 
 ### Third grade
 #### 🎗 **git**
@@ -88,7 +91,7 @@ By Linus.
 
 While being perfect, and revolutionaly, and trasforming, the cli is overcomplicated and take time to master. It is awaiting next revolution.
 In all other respects, it is a perfect software.
-It certainly deserves the main list for being compelling and rigorous. But it annoys you too. I feel there is an improvement is needed.
+It certainly deserves the main list for being compelling and rigorous. But it annoys you too (by being a bit of a git). I feel there is an improvement is needed.
 
 ### 🎗 **bash**
 Unix and bash certainly belong here.
@@ -98,10 +101,14 @@ The elegant "pipe" `|` function alone can make it into this list.
 It had the ideas of REST from tohse early times.
 Bash pipes alone are an insightful discovery. Not sure what the sources are.
 
+Too well-known for the main list.
+
 ### 🎗 **Unix**
 The Unix itself. Not explanation is needed.
 
 However, Unix is larger than a software. It containes most of the computer science.
+
+Too well-known for the main list.
 
 ### Specific aspects
 * _matlab_ -- Matlab's style of defining functions in a pragmatic and simple way never stopped amazing me. I never understoood the magic that drives that style of design. I believe it actually inspired Python.
