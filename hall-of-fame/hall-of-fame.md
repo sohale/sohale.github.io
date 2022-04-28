@@ -14,7 +14,7 @@ Criteria:
 * Completely solving a difficult problem: overkill
 * Moving the standard: Setting the new standards, while nothing better came after them
 * Perfect requirement engineering: Knowing the real needs of users, making them accessible and well organised, especially professional users
-* They show perfect software exists.
+* Each of them proves the perfect software exists.
 
 Notable mention:
 * 🏅 (the famous) **PhotoShop**
