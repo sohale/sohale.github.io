@@ -22,7 +22,7 @@ Criteria:
 * I feel nostalgic after not using them for a while. Maybe because other software did not provide that.
 * You don't feel there is an improvement needed. The problem-solving opportunities of improvement don't happen. Sometimes, whatever you imagine, you can find ways to do it.
 * Are examples that are ready in my mind ans examples for people to show possibility of writing good code.
-
+* Has to be non "bloated"! Example [here](https://gearspace.com/board/music-computers/395573-cool-edit-pro-2-1-appreciation.html).
 
 
 Perfect software are not too many to list.
@@ -38,7 +38,14 @@ It just takes time and comteplattion to find their right place.
 Notable mention:
 
 * 🏅 **CoolEdit**
+(aka Adobe Audition)
 
+Originally by Robert Ellison and David Johnston in the early 1990s (Syntrillium Software).
+It was basically a Photoshop for audio.
+
+Name: Cool Edit -> Cool Edit Pro -> Cool Edit Pro v2 -> Adobe Audition
+
+See another [appreciation page](https://gearspace.com/board/music-computers/395573-cool-edit-pro-2-1-appreciation.html).
 
 I just need to include the following too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
@@ -48,8 +55,9 @@ Perfect software are not too many to list, so I must list them.
 
 Above software are made by real human beings, not superhumans. They are worth mentioning:
 
-* Dmitry Boldyrev
-* Sergey Dmitriev, Valentin Kipyatkov and Eugene Belyaev
+* Dmitry Boldyrev (WinAmp)
+* Sergey Dmitriev, Valentin Kipyatkov and Eugene Belyaev (IntelliJ IDEA)
+* Robert Ellison and David Johnston (for Cool Edit)
 
 
 (to be continued)
@@ -128,3 +136,6 @@ Too well-known for the main list.
 Notable bad software:
 * Spotify, early Facebook, ...
 * Text editors: they constantly evolve, some of them are amazing. But no single one was a revolution. `vscode` is great though.
+
+## Other appreciation pages
+* [Cool Edit appreciation page](https://gearspace.com/board/music-computers/395573-cool-edit-pro-2-1-appreciation.html)
