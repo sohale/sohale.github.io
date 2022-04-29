@@ -62,6 +62,11 @@ Graphically perfect (probably can only come from Utah), elegant simplicity, and 
 
 Lots of decisions that make you smile.
 
+* Earliest use of the concept of "skin"  (ahead of its time)
+* Visualiser, rich incredible visual effects with its own community. (ahead of its time, much better than "processing" based live animations)
+* Elegant graphic design
+
+
 Name: Earlier version (for Mac) was called `MacAmp`
 
 ###  🏅 IntelliJ IDEA
