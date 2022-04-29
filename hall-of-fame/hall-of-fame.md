@@ -39,15 +39,6 @@ Notable mention:
 
 * 🏅 **CoolEdit**
 
-(It later was acquired by Adobe and became the bloated Adobe Audition)
-
-Originally by Robert Ellison and David Johnston in the early 1990s (Syntrillium Software).
-It was basically a Photoshop for audio.
-
-Name: Cool Edit -> Cool Edit Pro -> Cool Edit Pro v2 -> Adobe Audition
-
-See another [appreciation page](https://gearspace.com/board/music-computers/395573-cool-edit-pro-2-1-appreciation.html).
-
 I just need to include the following too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
 * 🎗 **Sketchpad**
@@ -91,6 +82,20 @@ Well-known in popular culture, but less famous for its engineering/software/desi
 
 #### 🎗 CoolEdit
 Later: Adobe Audition
+
+
+(It later was acquired by Adobe and became the bloated Adobe Audition)
+
+Originally by Robert Ellison and David Johnston in the early 1990s (Syntrillium Software).
+It was basically a Photoshop for audio.
+
+Name: Cool Edit -> Cool Edit Pro -> Cool Edit Pro v2 -> Adobe Audition
+
+See another [appreciation page](https://gearspace.com/board/music-computers/395573-cool-edit-pro-2-1-appreciation.html).
+
+Quote:
+> Syntrillium have managed to improve this popular, cost-effective, multi-faceted audio editing software package in just about every direction, while also adding a lot of new functionality — all of which is useful rather than just clever. Cool Edit Pro deserves to be taken seriously as an audio workstation par excellence. [1](https://www.soundonsound.com/reviews/syntrillium-cool-edit-pro-v2)
+
 
 #### 🎗 **Sketchpad**
 Sketchpad by Ivan Sutherland in 1963.
