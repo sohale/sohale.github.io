@@ -112,6 +112,18 @@ Well-known in popular culture, but less famous for its engineering/software/desi
 ### Third grade
 The folllowing are too famous for this and area already recognised and appreciated.
 
+#### **Postscript**
+
+Spin-offs: PDF
+
+#### **TeX**
+
+Knuth's TeX
+
+Spin-offs: LaTeX, TTF
+
+* Since 1978 (TeX78) or 1989, still leads the publishing industry and academia
+
 #### **git**
 By Linus.
 
