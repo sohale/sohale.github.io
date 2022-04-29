@@ -37,7 +37,7 @@ It just takes time and comteplattion to find their right place.
 
 Notable mention:
 
-* 🏅 **CoolEdit**
+* 🏅 [**CoolEdit**](#-cooledit)
 
 I just need to include the following too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
