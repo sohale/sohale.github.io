@@ -38,7 +38,8 @@ It just takes time and comteplattion to find their right place.
 Notable mention:
 
 * 🏅 **CoolEdit**
-(aka Adobe Audition)
+
+(It later was acquired by Adobe and became the bloated Adobe Audition)
 
 Originally by Robert Ellison and David Johnston in the early 1990s (Syntrillium Software).
 It was basically a Photoshop for audio.
