@@ -150,6 +150,7 @@ Too well-known for the main list.
 
 ### Others:
 * Apple 1 (Wozniak)
+* www, including http, html (and later, css)
 
 ### Specific aspects
 * _matlab_ -- Matlab's style of defining functions in a pragmatic and simple way never stopped amazing me. I never understoood the magic that drives that style of design. I believe it actually inspired Python.
