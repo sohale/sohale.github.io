@@ -3,10 +3,10 @@
 My favourite softwares:
 
 * 🏅 **WinAmp**
-* [🏅**CoolEdit**](#-cooledit)
+* [🏅 **CoolEdit**](#-cooledit)
 * 🏅 **IntelliJ IDEA**
 
-Criteria:
+### Criteria:
 * They are make so well that are difficult not to mention somewhere.
 * When you use them you notice lots of decisions that make you smile.
 * When you use them, you are amazed that they exist
@@ -36,9 +36,7 @@ These lists are liquid:
 I will move some between the main list, "Notable mentions" and third-grade lists.
 It just takes time and comteplattion to find their right place.
 
-Notable mention:
-
-* 🏅 [**CoolEdit**](#-cooledit)
+#### Notable mention:
 
 I just need to include the following too, although I havent' experenced them personally.
 Perfect software are not too many to list, so I must list them.
