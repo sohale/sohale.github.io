@@ -70,7 +70,7 @@ from JetBrains
 Jut beyond my imagination. It also worked always pefectly without bugs, while doing complicated logic.
 
 
-#### 🎗 CoolEdit
+#### 🏅 CoolEdit
 Later: Adobe Audition
 
 
@@ -87,13 +87,6 @@ Quote:
 > Syntrillium have managed to improve this popular, cost-effective, multi-faceted audio editing software package in just about every direction, while also adding a lot of new functionality — all of which is useful rather than just clever. Cool Edit Pro deserves to be taken seriously as an audio workstation par excellence. [1](https://www.soundonsound.com/reviews/syntrillium-cool-edit-pro-v2)
 
 ### Notable mentions
-#### 🎗 Photoshop
-By Thomas Knoll and John Knoll
-
-For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
-Well organisaiton of functions
-
-Well-known in popular culture, but less famous for its engineering/software/design excellence.
 
 
 #### 🎗 **Sketchpad**
@@ -102,6 +95,14 @@ Sketchpad by Ivan Sutherland in 1963.
 Must have been software-design-ed (software-engineer-ed) in a great way from the outset.
 
 Name: Originally called `Robot Draftsman`
+
+#### 🎗 Photoshop
+By Thomas Knoll and John Knoll
+
+For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
+Well organisaiton of functions
+
+Well-known in popular culture, but less famous for its engineering/software/design excellence.
 
 ### Third grade
 The folllowing are too famous for this and area already recognised and appreciated.
