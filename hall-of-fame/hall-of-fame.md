@@ -149,7 +149,7 @@ However, Unix is larger than a software. It containes most of the computer scien
 Too well-known for the main list.
 
 ### Others:
-* Apple 1 (Wozniak)
+* **Apple 1** (Wozniak)
 * www, including http, html (and later, css)
 
 ### Specific aspects
