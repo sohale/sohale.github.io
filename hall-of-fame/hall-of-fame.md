@@ -70,7 +70,7 @@ from JetBrains
 Jut beyond my imagination. It also worked always pefectly without bugs, while doing complicated logic.
 
 
-#### 🏅 CoolEdit
+### 🏅 CoolEdit
 Later: Adobe Audition
 
 
