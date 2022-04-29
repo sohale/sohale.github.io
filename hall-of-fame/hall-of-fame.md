@@ -3,6 +3,7 @@
 My favourite softwares:
 
 * 🏅 **WinAmp**
+* [🏅**CoolEdit**](#-cooledit)
 * 🏅 **IntelliJ IDEA**
 
 Criteria:
@@ -71,15 +72,6 @@ from JetBrains
 Jut beyond my imagination. It also worked always pefectly without bugs, while doing complicated logic.
 
 
-### Notable mentions
-#### 🎗 Photoshop
-By Thomas Knoll and John Knoll
-
-For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
-Well organisaiton of functions
-
-Well-known in popular culture, but less famous for its engineering/software/design excellence.
-
 #### 🎗 CoolEdit
 Later: Adobe Audition
 
@@ -95,6 +87,15 @@ See another [appreciation page](https://gearspace.com/board/music-computers/3955
 
 Quote:
 > Syntrillium have managed to improve this popular, cost-effective, multi-faceted audio editing software package in just about every direction, while also adding a lot of new functionality — all of which is useful rather than just clever. Cool Edit Pro deserves to be taken seriously as an audio workstation par excellence. [1](https://www.soundonsound.com/reviews/syntrillium-cool-edit-pro-v2)
+
+### Notable mentions
+#### 🎗 Photoshop
+By Thomas Knoll and John Knoll
+
+For being robust, can be used for professional (unlimited image quality) on simple computers at the time.
+Well organisaiton of functions
+
+Well-known in popular culture, but less famous for its engineering/software/design excellence.
 
 
 #### 🎗 **Sketchpad**
