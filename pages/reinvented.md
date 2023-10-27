@@ -14,13 +14,19 @@ but latercrealised they were invented or re-invented
     * preceeded: VNC
     * for: Windows 95, Win32
 * RISC: Reduced Instruction Set
-   
+   * Not ohysically built
+
 * Perl-like
 
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
 
 * GUI-...
+   * used state machines
+   * used delay
+   * used message passing
+
+Concept: not fully implemented:
 
 * a proto-qemu
    * A IBM PC-XT
@@ -28,6 +34,7 @@ but latercrealised they were invented or re-invented
 * software-hardware codesign
 * FPGA for deep learning (instrad of GPUs)
    * preceeded: TPUs
+* terraform
 
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs
