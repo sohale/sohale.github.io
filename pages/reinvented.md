@@ -55,6 +55,8 @@ but later realised they were invented or re-invented
 * System Identification by modular
 * GIL (similar, but different to Free Energy Principle)
 
+## Business ideas (not inplemented)
+* Twitter: social network by limiting (constraining) the message length
 
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs
