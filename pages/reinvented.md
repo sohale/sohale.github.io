@@ -21,6 +21,8 @@ but later realised they were invented or re-invented
 
 * Merge sort algorithm
 
+* DSL ...
+   * 2002 or 2003
 
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
@@ -57,7 +59,9 @@ but later realised they were invented or re-invented
 * Recurrent Neural Networks
    * 1997
    * disinllusioned by: TDNN
- 
+
+* Protein Folding (using? gradient-descent?)
+
 ## Neuroscience:
 * Optimal Experiment Design (adaptive)
     * identifucation with brain in the loop
@@ -68,5 +72,5 @@ but later realised they were invented or re-invented
 * Twitter: social network by limiting (constraining) the message length
 
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
-* Metaballs
-* 
+* Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
+
