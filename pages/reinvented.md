@@ -84,3 +84,11 @@ but later realised they were invented or re-invented
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
 
+
+podcast
+
+journalling
+
+Glycerine + Manganese
+
+
