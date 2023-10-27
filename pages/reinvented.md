@@ -67,6 +67,10 @@ but later realised they were invented or re-invented
     * identifucation with brain in the loop
 * System Identification by modular
 * GIL (similar, but different to Free Energy Principle)
+* A certain version of Information Bottleneck
+* Transfer Entrooy! (Yes, I invented it independently)
+* Information Lattice
+   * later: Bell
 
 ## Business ideas (not inplemented)
 * Twitter: social network by limiting (constraining) the message length
