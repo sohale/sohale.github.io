@@ -31,6 +31,12 @@ but later realised they were invented or re-invented
    * VVVV, a node-like toolkit
 
 ### Mathematics:
+* (incomplete) Computational Logic: Symbolic system, automated differentiation
+   * disillusioned by: Mathematica
+* Contours of potentials from phase flow vector spaces (not finished. not solved)
+   * Hamiltonian
+
+* Interpolation based on 1/r and 1/r^2 (limits)
 
 
 ## Concept: not fully implemented:
