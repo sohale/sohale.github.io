@@ -84,11 +84,16 @@ but later realised they were invented or re-invented
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
 
-
+### Misc
 podcast
 
 journalling
 
-Glycerine + Manganese
+### Chemistry:
+* Glycerol with potassium permanganate causing 
+(accidental discovery)
+
+### Music
+* PAGWA instrument (digital sliding guitar)
 
 
