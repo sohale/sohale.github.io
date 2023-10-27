@@ -3,8 +3,9 @@
 and later I realised are already invented:
 
 ## Genuinely invented
-but latercrealised they were invented or re-invented
+but later realised they were invented or re-invented
 
+### Comouter Engineering/Science
 * awk
     * when: 1995
     * for: MS DOS/Windows
@@ -26,7 +27,13 @@ but latercrealised they were invented or re-invented
    * used delay
    * used message passing
 
-Concept: not fully implemented:
+* VVVV-like
+   * VVVV, a node-like toolkit
+
+### Mathematics:
+
+
+## Concept: not fully implemented:
 
 * a proto-qemu
    * A IBM PC-XT
@@ -37,6 +44,17 @@ Concept: not fully implemented:
 * terraform
 
 * Rewriting grammars
+
+* Recurrent Neural Networks
+   * 1997
+   * disinllusioned by: TDNN
+ 
+## Neuroscience:
+* Optimal Experiment Design (adaptive)
+    * identifucation with brain in the loop
+* System Identification by modular
+* GIL (similar, but different to Free Energy Principle)
+
 
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs
