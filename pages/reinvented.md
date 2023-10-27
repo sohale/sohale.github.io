@@ -43,6 +43,9 @@ but later realised they were invented or re-invented
 
 * Interpolation based on 1/r and 1/r^2 (limits)
 
+* Histogram Equalisation: grey-scale (and colour?) in image processing.
+
+
 
 ## Concept: not fully implemented:
 
@@ -71,6 +74,9 @@ but later realised they were invented or re-invented
 * Transfer Entrooy! (Yes, I invented it independently)
 * Information Lattice
    * later: Bell
+
+* Invariances in multi-dimentional distributions (whitening)
+
 
 ## Business ideas (not inplemented)
 * Twitter: social network by limiting (constraining) the message length
