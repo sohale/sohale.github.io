@@ -85,9 +85,10 @@ but later realised they were invented or re-invented
 * Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
 
 ### Misc
-podcast
+podcasting
+( 1985? )
 
-journalling
+journalling (magazine)
 
 ### Chemistry:
 * Glycerol with potassium permanganate causing 
