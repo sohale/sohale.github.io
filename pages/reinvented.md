@@ -20,8 +20,15 @@ but latercrealised they were invented or re-invented
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
 
-* proto-qemu
+* GUI-...
 
-Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
+* a proto-qemu
+   * A IBM PC-XT
+
+* software-hardware codesign
+* FPGA for deep learning (instrad of GPUs)
+   * preceeded: TPUs
+
+### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs
 * 
