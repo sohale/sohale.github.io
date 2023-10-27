@@ -36,6 +36,8 @@ Concept: not fully implemented:
    * preceeded: TPUs
 * terraform
 
+* Rewriting grammars
+
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs
 * 
