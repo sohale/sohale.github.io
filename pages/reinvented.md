@@ -19,6 +19,9 @@ but later realised they were invented or re-invented
 
 * Perl-like
 
+* Merge sort algorithm
+
+
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
 
