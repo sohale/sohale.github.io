@@ -79,6 +79,9 @@ but later realised they were invented or re-invented
 * Information Lattice
    * later: Bell
 
+* Earth-Moving Distance (EMD)
+
+
 * Invariances in multi-dimentional distributions (whitening)
 
 * Bayesian Attention
@@ -107,3 +110,5 @@ journalling (magazine)
 
 ### Not reinvented, but made
 * A telescope, 1988 ?
+
+sSething about these: Petri-nets, Transputers, Photonic computing, KOZ-Wavelet, Filtering using Fourier
