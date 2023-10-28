@@ -45,6 +45,8 @@ but later realised they were invented or re-invented
 
 * Histogram Equalisation: grey-scale (and colour?) in image processing.
 
+* A simple version of Metropolis MCMC Algorithm
+* (for any arbitrary non-normalised distribution)
 
 
 ## Concept: not fully implemented:
@@ -62,6 +64,7 @@ but later realised they were invented or re-invented
 * Recurrent Neural Networks
    * 1997
    * disinllusioned by: TDNN
+   * a q-Markov variant
 
 * Protein Folding (using? gradient-descent?)
 
@@ -71,11 +74,15 @@ but later realised they were invented or re-invented
 * System Identification by modular
 * GIL (similar, but different to Free Energy Principle)
 * A certain version of Information Bottleneck
-* Transfer Entrooy! (Yes, I invented it independently)
+* Transfer Entropy!
+(Yes, I invented it independently, before reading about it)
 * Information Lattice
    * later: Bell
 
 * Invariances in multi-dimentional distributions (whitening)
+
+* Bayesian Attention
+* Dith. method
 
 
 ## Business ideas (not inplemented)
@@ -98,3 +105,5 @@ journalling (magazine)
 * PAGWA instrument (digital sliding guitar)
 
 
+### Not reinvented, but made
+* A telescope, 1988 ?
