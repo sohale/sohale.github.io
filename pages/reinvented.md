@@ -81,6 +81,8 @@ but later realised they were invented or re-invented
 
 * Earth-Moving Distance (EMD)
 
+* The "Averted Vision" phenomenon: perioherial vision (rods) is more sensitive amd has lower threshold for vision.
+
 
 * Invariances in multi-dimentional distributions (whitening)
 
