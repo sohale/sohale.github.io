@@ -16,30 +16,49 @@ but later realised they were invented or re-invented
     * preceeded: VNC
     * for: Windows 95, Win32
 * RISC: Reduced Instruction Set
-   * Not ohysically built
+   * Invented in 1989-1990 (age 12)
+   * Not physically implemented. Remained on paper.
 
-* Perl-like language
+Algorithms:
 
 * Merge sort algorithm
+    * reinvented, without knowing, the Merge Sort
+    * Distribution -aware sorting
 
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
 
 * GUI-... (A GUI system based on state machines & using a )
+   * featured its own a programming language (DSL)
    * used state machines
    * used delay
    * used message passing
    * Featured a CSS-like vector language
+   * Fully implemented
+   * "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
 
 * VVVV-like
    * VVVV, a node-like toolkit
 
+Theoretical models and models of computation:
 
 * Rewrite grammars (see findreplace)
+   * A Perl-like language
+
 * Multi-head TM (a theoretical idea near-memory computing)
-* Runtime pluggable Transputers
 
+* Reconfigurable TM
+   * (related to multi-level caching)
 
+Hardware:
+
+* Runtime-pluggable Transputers
+   * Also see TPUs (but not related to that)
+
+* Advanced caching schemes (...)
+* Multi-level
+
+  
 * DSL ...
    * 2002 or 2003
 
