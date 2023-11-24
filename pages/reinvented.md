@@ -15,8 +15,9 @@ but later realised they were invented or re-invented
     * when: 1997
     * preceeded: VNC
     * for: Windows 95, Win32
-* RISC: Reduced Instruction Set
-   * Invented in 1989-1990 (age 12)
+
+* RISC: Reduced Instruction Set Computer !
+   * I invented in 1989-1990 (age 12)
    * Not physically implemented. Remained on paper.
 
 Algorithms:
