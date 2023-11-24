@@ -77,9 +77,10 @@ Programming Languages:
 * A melody notation language
 
 * The ChainTree(Flowtree) concept
-* The "templator" concept & DSL language (with aplpicaiton in APIs)
+* The "templator" concept & DSL language (with application in API design) (& Type systems)
 
-* My own version of raster to vector
+* My own version of raster to vector (using optimisation)
+
 * My own version of geological mapping (interpolation) based on sparse depth observations (for reservoir exploration)
 
 ### Mathematics:
@@ -95,6 +96,7 @@ Programming Languages:
 * A simple version of MCMC Algorithm
    * (for any arbitrary non-normalised distribution)
 
+* A new geometric primitive ()
 
 ## Concept: not fully implemented:
 
@@ -102,13 +104,13 @@ Programming Languages:
    * A IBM PC-XT
 
 * software-hardware codesign
-* FPGA for deep learning (instrad of GPUs)
+* FPGA for deep learning (instead of GPUs)
    * preceded: TPUs
 * terraform
 
-* A rewrite system (Rewriting grammars)
+* A rewrite system (Rewriting grammar)
    * that was Turing Complete
-   * For online realtime information processing
+   * For online real-time information processing
    * General purpose
 
 * Recurrent Neural Networks
@@ -178,3 +180,9 @@ podcasting
 journalling (magazine)
 
 Something about these: Petri-nets, Transputers, Photonic computing, KPZ-Wavelet, Filtering using Fourier
+
+
+## Early implementations
+* My first implementation of Neural Network (Perceptron) with Back propagation at age 18 (1995?)
+* My full renderer engine: from 16-19 ( 1993-1996 ) (Full featured with reflection, refraction, anti-anliasing, textures, etc
+* Meta balls (implicit modeling) with full implementation: 
