@@ -73,8 +73,11 @@ Programming Languages:
    * Compile-time as a legitimate mode (made popular in Zig)
  
 * File-format description language
-* A glyph description language (used to implement a full-featured Persian display and editing language: before Unicode and before you could have fonts on HTML )
-* A melody notation language
+* A glyph description language
+    * Was used to implement a full-featured Persian display and editing language
+    * It was before "Unicode" and before you could have fonts on HTML
+    * My simplified version of METAFONT (inspired by it), using a Forth-lang-inspired DSL for describing splines, etc
+* A melody notation language (Forth-inspired stack-based)
 
 * The ChainTree(Flowtree) concept
 * The "templator" concept & DSL language (with application in API design) (& Type systems)
