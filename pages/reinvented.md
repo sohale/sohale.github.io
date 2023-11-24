@@ -166,6 +166,8 @@ Programming Languages:
    * A prototype of some aspects of predictive coding for eye
    * (Search for what can be and cannot be detected by eyes: perceptual optimality measure)
 
+* Implicit Artificial Neural Networks
+
 ## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
 
@@ -197,4 +199,5 @@ Something about these: Petri-nets, Transputers, Photonic computing, KPZ-Wavelet,
 ## Early implementations
 * My first implementation of Neural Network (Perceptron) with Back propagation at age 18 (1995?)
 * My full renderer engine: from 16-19 ( 1993-1996 ) (Full featured with reflection, refraction, anti-anliasing, textures, etc
-* Meta balls (implicit modeling) with full implementation: 
+* Meta balls (implicit modeling) with full implementation: later led
+* ImpliSolid (implicit object modelling, etc)
