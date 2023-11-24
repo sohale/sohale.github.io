@@ -39,7 +39,7 @@ Algorithms:
    * "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
 
 * VVVV-like
-   * VVVV, a node-like toolkit
+   * VVVV, a node-like toolkit, but for Aaudio
 
 Theoretical models and models of computation:
 
@@ -50,6 +50,8 @@ Theoretical models and models of computation:
 
 * Reconfigurable TM
    * (related to multi-level caching)
+
+* Adaptively reversible
 
 Hardware:
 
@@ -95,6 +97,10 @@ Programming Languages:
 
 * My own version of geological mapping (interpolation) based on sparse depth observations (for reservoir exploration)
 
+### Numerical
+* Some information processing filters
+    * Colour equalisation
+
 ### Mathematics:
 * (incomplete) Computational Logic: Symbolic system, automated differentiation
    * disillusioned by: Mathematica
@@ -108,7 +114,7 @@ Programming Languages:
 * A simple version of MCMC Algorithm
    * (for any arbitrary non-normalised distribution)
 
-* A new geometric primitive ()
+* A new geometric primitive (later I found it is known as "Coons patch")
 
 ## Concept: not fully implemented:
 
@@ -132,9 +138,20 @@ Programming Languages:
 
 * Protein Folding (using? gradient-descent?)
 
-## Neuroscience:
-* Optimal Experiment Design (adaptive)
-    * identifucation with brain in the loop
+## Neuroscience rediscovered (without being aware):
+* Live Experiment Design (adaptive)
+    * Optimal experiment design using optimisation 
+    * I suggested using GP
+    * identification with the brain in the loop
+    * It was not Bayesian thought. Later a Bayesian framework version of it was suggested by Paninski
+
+* Spatio-temporal receptive fields for modelling visual system:
+    *  Use of visual motion in finding/characterising optimal receptive fields (LNP model with optic flow/velocity) (temporal element) -- (Later, done by Gallant)
+
+* .
+
+* The Zoom Lens model of attention
+
 * System Identification by modular
 * GIL (similar, but different to Free Energy Principle)
 * A certain version of Information Bottleneck
@@ -156,10 +173,12 @@ Programming Languages:
 
 
 * Invariances & some properties of in multi-dimensional distributions (whitening)
+    * Importance of variants and some early formulation of invariants in distributions used for modelling of visual system
 
 * The dithering method in statistical modelling
 
-* Bayesian Attention
+* Bayesian Attention (published in a conference paper)
+
 * Dith. method
 
 * The dithering method in graphics using some heuristic perceptual optimality and using Vector quantization
@@ -167,6 +186,48 @@ Programming Languages:
    * (Search for what can be and cannot be detected by eyes: perceptual optimality measure)
 
 * Implicit Artificial Neural Networks
+
+
+* Stacked Boltzmann machines (Hinton 1996) (without the Boltzmann part)
+    * Inspired by the developmental process of learning the hierarchy: V1 → V2 →
+
+* Use of Attention in ML/AI (later: that idea is implemented in "Attention is Everything": Transformers)
+
+* Auto-encoder (I called it re-coder)
+
+* Some ideas of Predictive Processing
+
+* V1 simple & complex cells as a Group (as in Group theory)
+
+* Bayesian model for hypothesis-based model for Bayesian derivation of the optimal modelling Decision Making as an extension of Shadlen-Movshon model (presented in a report for PhD acceptance)
+   * A simplified version of IBE: Inference to the best explanation
+
+* Noise injection
+
+* ε-MLP: Uncertainty representation in Neural networks
+   * No avoid over-generalisaiton
+   * An early bottleneck method
+
+## Philosophy
+* Epistemology
+   * CCX
+      * Also discussion with David H*
+      * Epistemology hierarchy. Related to a work by Dawkins, also others.
+      * Some ideas about Wolfram
+   * A theory of Truth (to be published)
+* Physics as computation, and Computation as physics
+* GIL (...)
+* More on information
+* "strange loop"
+* Some ideas about Hegel's philosophy and the third observer (also the collective regional unhappy consciousness dynamics)
+   * Some critique of Fukuyama
+* "Superorganism" (some sense of collective consciousness and "idea" of Hegel) (only later realised this)
+* Schopenhauer's worls as R & W
+
+## Physics
+* Link between Information theory & Physics
+* "Quantum Asymmetric Cloning Machines" (published paper in PLA)
+* "Physics as Information Processing" (rediscovery) ( book title to be written)
 
 ## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
@@ -201,3 +262,15 @@ Something about these: Petri-nets, Transputers, Photonic computing, KPZ-Wavelet,
 * My full renderer engine: from 16-19 ( 1993-1996 ) (Full featured with reflection, refraction, anti-anliasing, textures, etc
 * Meta balls (implicit modeling) with full implementation: later led
 * ImpliSolid (implicit object modelling, etc)
+
+
+## Unpublished ideas (to be published)
+Some other original ideas are developed and implemented but are not rediscovered by others.
+I am in the process of publishing them soon.
+I cannot write about them here.
+They are in the fields of:
+
+* Information Theory
+* Statistical Modelling
+* Computer Science: Programming Languages, Software, Hardware, Theoretical models (computing)
+* Philosophy (mind, computing, epistemology, political philosophy, etc)
