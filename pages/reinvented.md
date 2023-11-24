@@ -64,18 +64,27 @@ Programming Languages:
    * Encoding data scheme as code structure using reflection/inbtrospections
    * 2002 or 2003
 
-* CPU description language (an idea related to HW/SW co-design)
+
+
+* CPU description language (an idea related to HW/SW co-design). See the QEMU-like.
 
 * Programming languages design constructs & syntaxes:
    * ownership pointers (the idea that made Rust-language a hit)
    * Data flow analysis
    * Compile-time types & arguments (made popular in Zig)
    * Compile-time as a legitimate mode (made popular in Zig)
+
+* A system (and developed numerous ideas) for heavy use of Macro-based programming (before knowing about C++ & `template`)
+   * Before 2000
+   * Later developed into some ideas below: the idea of compile-time programming (`ctime` is Zig)
+
+* A concept called "Levels" in programming languages (1996/1997?)
+* Runtime recompiling 2000 (not implemented, but later was used in JIT, etc).
  
 * File-format description language
 * A glyph description language
-    * Was used to implement a full-featured Persian display and editing language
-    * It was before "Unicode" and before you could have fonts on HTML
+    * Was used to implement a full-featured Persian text display Applet and editor
+    * It was before "Unicode", and before you could have fonts on HTML
     * My simplified version of METAFONT (inspired by it), using a Forth-lang-inspired DSL for describing splines, etc
 * A melody notation language (Forth-inspired stack-based)
 
