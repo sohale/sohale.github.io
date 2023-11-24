@@ -60,6 +60,7 @@ Hardware:
 
   
 * DSL ...
+   * Encoding data scheme as code structure using reflection/inbtrospections
    * 2002 or 2003
 
 * CPU description language (an idea related to HW/SW co-design)
