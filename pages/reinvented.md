@@ -147,15 +147,15 @@ Hardware:
 * Bayesian Attention
 * Dith. method
 
-* The dithering method in graphics using some heuristic optimalirty and using Vector quantization
+* The dithering method in graphics using some heuristic perceptual optimality and using Vector quantization
    * A prototype of some aspects of predictive coding for eye
-   * (Search for what can be and cannot be detected by eyes)
+   * (Search for what can be and cannot be detected by eyes: perceptual optimality measure)
 
 ## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
 
-### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
-* Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
+### Reinvented knowing they exist, based on the general idea, without any technical details (in pre-internet):
+* Metaballs (Implicit Surface modelling rendering using Ray Casting)
 
 ### Chemistry:
 * Glycerol with potassium permanganate causing explosive reaction
@@ -168,7 +168,7 @@ Hardware:
 
 
 ### Not reinvented, but made
-* A telescope, 1988 (Using lenses made for glasses, and a weak binocular's eyepiece, and a cardboard pipe)
+* A telescope, 1988 (Using lenses made for glasses, together with my weak binocular eyepiece, and a cardboard pipe)
 
 ### Misc
 podcasting
