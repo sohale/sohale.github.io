@@ -46,7 +46,8 @@ Theoretical models and models of computation:
 * Rewrite grammars (see findreplace)
    * A Perl-like language
 
-* Multi-head TM (a theoretical idea near-memory computing)
+* Multi-head TM (a certain theoretical idea)
+    * Also related to near-memory computing)
 
 * Reconfigurable TM
    * (related to multi-level caching)
@@ -60,6 +61,9 @@ Hardware:
 
 * Advanced caching schemes (...)
 * Multi-level
+
+
+* Some failed ideas (optical computing)
 
 Programming Languages:
 * DSL ...
@@ -115,6 +119,8 @@ Programming Languages:
    * (for any arbitrary non-normalised distribution)
 
 * A new geometric primitive (later I found it is known as "Coons patch")
+
+* Some solutions to Russel paradox
 
 ## Concept: not fully implemented:
 
@@ -202,19 +208,37 @@ Programming Languages:
 * Bayesian model for hypothesis-based model for Bayesian derivation of the optimal modelling Decision Making as an extension of Shadlen-Movshon model (presented in a report for PhD acceptance)
    * A simplified version of IBE: Inference to the best explanation
 
-* Noise injection
 
 * ε-MLP: Uncertainty representation in Neural networks
-   * No avoid over-generalisaiton
+   * An extension of MLP/deep NN to avoid over-generalisation
    * An early bottleneck method
+   * An early Auto-Encoder algorithm
+   * Was a proposal for a PhD assignment
+   * Noise injection
+   * Multiplicaive noise
+
+* Stochastic normalisation (loop)
+    * I think it is realted to some ideas in Boltzmann machines
+
+* Importance of incorporating Uncertainty in Neural Networks
+
+* Model uncertainty and formalising it (in general)
+
+* Non-Laplace uncertainty
+
+*  Some solutions for Maxwell's Daemon paradox
 
 ## Philosophy
 * Epistemology
    * CCX
       * Also discussion with David H*
       * Epistemology hierarchy. Related to a work by Dawkins, also others.
-      * Some ideas about Wolfram
+      * From sensory to "irreducible computational gaps"
+      * Some ideas also published by Wolfram
+
    * A theory of Truth (to be published)
+   * Theory of locus of truth
+
 * Physics as computation, and Computation as physics
 * GIL (...)
 * More on information
@@ -260,9 +284,8 @@ Something about these: Petri-nets, Transputers, Photonic computing, KPZ-Wavelet,
 ## Early implementations
 * My first implementation of Neural Network (Perceptron) with Back propagation at age 18 (1995?)
 * My full renderer engine: from 16-19 ( 1993-1996 ) (Full featured with reflection, refraction, anti-anliasing, textures, etc
-* Meta balls (implicit modeling) with full implementation: later led
+* Meta balls (implicit modelling) with full implementation: later led
 * ImpliSolid (implicit object modelling, etc)
-
 
 ## Unpublished ideas (to be published)
 Some other original ideas are developed and implemented but are not rediscovered by others.
