@@ -91,7 +91,7 @@ Hardware:
 
 * Histogram Equalisation: grey-scale (and colour?) in image processing.
 
-* A simple version of Metropolis MCMC Algorithm
+* A simple version of MCMC Algorithm
    * (for any arbitrary non-normalised distribution)
 
 
