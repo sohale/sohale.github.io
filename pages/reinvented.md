@@ -35,6 +35,9 @@ but later realised they were invented or re-invented
 
 
 * Rewrite grammars
+* Multi-head TM (a theoretical idea near-memory computing)
+* Runtime pluggable Transputers
+* 
 
 * DSL ...
    * 2002 or 2003
