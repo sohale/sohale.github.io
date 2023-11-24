@@ -152,14 +152,16 @@ podcasting
 journalling (magazine)
 
 ### Chemistry:
-* Glycerol with potassium permanganate causing 
-(accidental discovery)
+* Glycerol with potassium permanganate causing explosive reaction
+(accidental discovery, about age 10, 2987 )
 
 ### Music
 * PAGWA instrument (digital sliding guitar)
+* Fully implemented using MIDI & using a Nichrome heater element & A/D converter, functional on Amiga.
+* Recorded some music with it
 
 
 ### Not reinvented, but made
-* A telescope, 1988 ?
+* A telescope, 1988 (Using lenses made for glasses, and a weak binocular's eyepiece, and a cardboard pipe)
 
 sSething about these: Petri-nets, Transputers, Photonic computing, KOZ-Wavelet, Filtering using Fourier
