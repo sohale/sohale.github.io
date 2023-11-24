@@ -59,14 +59,14 @@ Hardware:
 * Advanced caching schemes (...)
 * Multi-level
 
-  
+Programming Languages:
 * DSL ...
    * Encoding data scheme as code structure using reflection/inbtrospections
    * 2002 or 2003
 
 * CPU description language (an idea related to HW/SW co-design)
 
-* Programming languages
+* Programming languages design constructs & syntaxes:
    * ownership pointers (the idea that made Rust-language a hit)
    * Data flow analysis
    * Compile-time types & arguments (made popular in Zig)
