@@ -5,7 +5,7 @@ and later I realised are already invented:
 ## Genuinely invented
 but later realised they were invented or re-invented
 
-### Comouter Engineering/Science
+### Computer Engineering/Science
 * awk
     * when: 1995
     * for: MS DOS/Windows
@@ -21,8 +21,6 @@ but later realised they were invented or re-invented
 
 * Merge sort algorithm
 
-* DSL ...
-   * 2002 or 2003
 
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
@@ -34,6 +32,10 @@ but later realised they were invented or re-invented
 
 * VVVV-like
    * VVVV, a node-like toolkit
+
+* DSL ...
+   * 2002 or 2003
+* Programming languages
 
 ### Mathematics:
 * (incomplete) Computational Logic: Symbolic system, automated differentiation
