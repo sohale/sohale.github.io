@@ -112,7 +112,7 @@ Hardware:
 
 * Recurrent Neural Networks
    * 1997
-   * disinllusioned by: TDNN
+   * disillusioned by: TDNN
    * a q-Markov variant
 
 * Protein Folding (using? gradient-descent?)
@@ -140,13 +140,18 @@ Hardware:
    * I could almost see Andromeda, but since I could re-detect it using foveal vision, I dismissed this ability to see the Andromeda galaxy.
 
 
-* Invariances in multi-dimentional distributions (whitening)
+* Invariances & some properties of in multi-dimensional distributions (whitening)
+
+* The dithering method in statistical modelling
 
 * Bayesian Attention
 * Dith. method
 
+* The dithering method in graphics using some heuristic optimalirty and using Vector quantization
+   * A prototype of some aspects of predictive coding for eye
+   * (Search for what can be and cannot be detected by eyes)
 
-## Business ideas (not inplemented)
+## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
 
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
