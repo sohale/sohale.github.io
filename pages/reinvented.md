@@ -145,15 +145,9 @@ Hardware:
 ### Reinvented knowing they exist, based on the genral idea, without any technical details (in pre-internet):
 * Metaballs (Implicit Surface Modellimg rendering using Ray Casting)
 
-### Misc
-podcasting
-( 1985? )
-
-journalling (magazine)
-
 ### Chemistry:
 * Glycerol with potassium permanganate causing explosive reaction
-(accidental discovery, about age 10, 2987 )
+(accidental childish discovery, about age 10, ~1987 )
 
 ### Music
 * PAGWA instrument (digital sliding guitar)
@@ -164,4 +158,10 @@ journalling (magazine)
 ### Not reinvented, but made
 * A telescope, 1988 (Using lenses made for glasses, and a weak binocular's eyepiece, and a cardboard pipe)
 
-sSething about these: Petri-nets, Transputers, Photonic computing, KOZ-Wavelet, Filtering using Fourier
+### Misc
+podcasting
+( 1985? )
+
+journalling (magazine)
+
+Something about these: Petri-nets, Transputers, Photonic computing, KPZ-Wavelet, Filtering using Fourier
