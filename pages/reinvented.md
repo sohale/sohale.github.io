@@ -6,10 +6,11 @@ and later I realised are already invented:
 but later realised they were invented or re-invented
 
 ### Computer Engineering/Science
-* awk
+* awk (A cascadable grep/awk/sed -like tool set for DOS (without being aware of them in Unix)
     * when: 1995
     * for: MS DOS/Windows
-    * disilusioned by: awk/sed
+    * disillusioned: by awk/sed
+
 * Remote terminal
     * when: 1997
     * preceeded: VNC
@@ -17,27 +18,27 @@ but later realised they were invented or re-invented
 * RISC: Reduced Instruction Set
    * Not ohysically built
 
-* Perl-like
+* Perl-like language
 
 * Merge sort algorithm
-
 
 * Universal Mechanics problem solver (Physics Engine)
    * Did not fully work (for slicing objects)
 
-* GUI-...
+* GUI-... (A GUI system based on state machines & using a )
    * used state machines
    * used delay
    * used message passing
+   * Featured a CSS-like vector language
 
 * VVVV-like
    * VVVV, a node-like toolkit
 
 
-* Rewrite grammars
+* Rewrite grammars (see findreplace)
 * Multi-head TM (a theoretical idea near-memory computing)
 * Runtime pluggable Transputers
-* 
+
 
 * DSL ...
    * 2002 or 2003
@@ -49,6 +50,16 @@ but later realised they were invented or re-invented
    * Data flow analysis
    * Compile-time types & arguments (made popular in Zig)
    * Compile-time as a legitimate mode (made popular in Zig)
+ 
+* File-format description language
+* A glyph description language (used to implement a full-featured Persian display and editing language: before Unicode and before you could have fonts on HTML )
+* A melody notation language
+
+* The ChainTree(Flowtree) concept
+* The "templator" concept & DSL language (with aplpicaiton in APIs)
+
+* My own version of raster to vector
+* My own version of geological mapping (interpolation) based on sparse depth observations (for reservoir exploration)
 
 ### Mathematics:
 * (incomplete) Computational Logic: Symbolic system, automated differentiation
@@ -61,7 +72,7 @@ but later realised they were invented or re-invented
 * Histogram Equalisation: grey-scale (and colour?) in image processing.
 
 * A simple version of Metropolis MCMC Algorithm
-* (for any arbitrary non-normalised distribution)
+   * (for any arbitrary non-normalised distribution)
 
 
 ## Concept: not fully implemented:
@@ -71,10 +82,13 @@ but later realised they were invented or re-invented
 
 * software-hardware codesign
 * FPGA for deep learning (instrad of GPUs)
-   * preceeded: TPUs
+   * preceded: TPUs
 * terraform
 
-* Rewriting grammars
+* A rewrite system (Rewriting grammars)
+   * that was Turing Complete
+   * For online realtime information processing
+   * General purpose
 
 * Recurrent Neural Networks
    * 1997
