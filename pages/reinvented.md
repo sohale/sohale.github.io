@@ -123,14 +123,21 @@ Hardware:
 * System Identification by modular
 * GIL (similar, but different to Free Energy Principle)
 * A certain version of Information Bottleneck
+
 * Transfer Entropy!
 (Yes, I invented it independently, before reading about it)
+
 * Information Lattice
    * later: Bell
 
 * Earth-Moving Distance (EMD)
 
-* The "Averted Vision" phenomenon: perioherial vision (rods) is more sensitive amd has lower threshold for vision.
+* The discovery that retinal cells in the periphery are more sensitive to lightness (lower threshold of peripheral vision)
+   * During my childhood psychophysics-like experiments (by observing stars and galaxies are visible only by the corner of the eyes, and making sense of it and noting it and framing it as a concept, not dismissing it as an error.
+   * First, It was annoying me and after a while I realised it is a robust phenomenon.)
+   * The "Averted Vision" phenomenon: peripheral vision (rods) is more sensitive and has a lower threshold for vision.
+   * I didn't know it was specific for black-and-white vision
+   * I could almost see Andromeda, but since I could re-detect it using foveal vision, I dismissed this ability to see the Andromeda galaxy.
 
 
 * Invariances in multi-dimentional distributions (whitening)
