@@ -33,9 +33,19 @@ but later realised they were invented or re-invented
 * VVVV-like
    * VVVV, a node-like toolkit
 
+
+* Rewrite grammars
+
 * DSL ...
    * 2002 or 2003
+
+* CPU description language (an idea related to HW/SW co-design)
+
 * Programming languages
+   * ownership pointers (the idea that made Rust-language a hit)
+   * Data flow analysis
+   * Compile-time types & arguments (made popular in Zig)
+   * Compile-time as a legitimate mode (made popular in Zig)
 
 ### Mathematics:
 * (incomplete) Computational Logic: Symbolic system, automated differentiation
