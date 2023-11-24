@@ -27,7 +27,12 @@ Algorithms:
     * Distribution -aware sorting
 
 * Universal Mechanics problem solver (Physics Engine)
+   * I didn't know such thing exists. I started doing it.
+   * It was implemented, but had some shortcomings when objects were sliding.
    * Did not fully work (for slicing objects)
+   * Unfortunately I was not aware of Lagrange multipliers and Lagrangian and KKT conditions (I had my own version of these, but they were lost)
+   * Source code is lost
+   * Later on I found out that what I was looking for was Lagrangian. The translations of physics books explaining Lagrangian were not good.
 
 * GUI-... (A GUI system based on state machines & using a )
    * featured its own a programming language (DSL)
@@ -38,8 +43,20 @@ Algorithms:
    * Fully implemented
    * "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
 
-* VVVV-like
-   * VVVV, a node-like toolkit, but for Aaudio
+
+* A fully digital Audio workstation using PCs (it didn't exist at the time). (Mehr32)
+   * Using real-time input (microphone, SPDIF). It actually worked with relatively low latency at the time.
+   * zero-latency audio processing using FPGA
+   * Equivalent to SuperCollider (I wrote it and completed it in 2000, only 4 years after the first ever version of SuperCollider, I was not aware of that)
+   * VVVV, My Mehr32 was a node-like toolkit, but for Audio. Later I realised it is referred to as VVVV-like systems, by some people.
+   * The distributed version was conceived but not implemented.
+
+* Many Compiler ideas for the above Mehr32 system
+
+* Some DSL ideas based on the above Mehr32
+
+* JSON
+   * An early idea I suggested, I realised it was just invented, and it was called JSON (posted in mailing list about 1999-2000)
 
 Theoretical models and models of computation:
 
@@ -98,12 +115,21 @@ Programming Languages:
 * The "templator" concept & DSL language (with application in API design) (& Type systems)
 
 * My own version of raster to vector (using optimisation)
+   * Before knowing optimisation
+
+* Formulating Protein Folding as global Optimisation problem
+   * Some early version of Particle Filtering (unfortunately, not Bayesian. Not implemented)
+   * 
 
 * My own version of geological mapping (interpolation) based on sparse depth observations (for reservoir exploration)
+   * at age 17
 
 ### Numerical
 * Some information processing filters
     * Colour equalisation
+* (Failed) a good performing pitch-shifitng algorithm
+    * Some pitch-shifting algorithms
+* The idea of pitch correction (before it became popular and known by me). Tried to implement it. My pitch-shifting algorithm did not perform well.
 
 ### Mathematics:
 * (incomplete) Computational Logic: Symbolic system, automated differentiation
@@ -120,7 +146,13 @@ Programming Languages:
 
 * A new geometric primitive (later I found it is known as "Coons patch")
 
+* Some solutions for Intuitive Logic (no-negation logic): A non-intuitive logic.
 * Some solutions to Russel paradox
+
+* Desire to (but failed at) finding locally parametrisation of a manifold (Later realised it is solved by Riemann)
+* Desire to (but failed at) deriving phase lines from isopotentials of electric and magnetic fields
+    * (later realised it can be formulated using Laplacian and Legendre transform )
+    * 
 
 ## Concept: not fully implemented:
 
@@ -137,7 +169,7 @@ Programming Languages:
    * For online real-time information processing
    * General purpose
 
-* Recurrent Neural Networks
+* Recurrent Neural Networks (yes!)
    * 1997
    * disillusioned by: TDNN
    * a q-Markov variant
@@ -223,10 +255,18 @@ Programming Languages:
 * Importance of incorporating Uncertainty in Neural Networks
 
 * Model uncertainty and formalising it (in general)
+* Ideas related to Information Geometry (I called them model manifolds)
+
 
 * Non-Laplace uncertainty
 
 *  Some solutions for Maxwell's Daemon paradox
+
+* Principle of maximum entropy (Later found it was given by by Jaynes
+* Principle of maximum information
+* Principle of Information bottleneck (later: found out it was given by Naftali Tishby)
+
+
 
 ## Philosophy
 * Epistemology
