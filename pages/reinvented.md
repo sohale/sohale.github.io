@@ -197,6 +197,10 @@ Programming Languages:
 * Transfer Entropy!
 (Yes, I invented it independently, before reading about it)
 
+* Bayesian causality:
+   *  I formulated this before knowing about causal inference or its literature. I called it information flow, as part of a framework.
+   *  Quantified it using etropy-based quantities (assuming full knowledge about dynamics of the system, It was not about inferring causality from limited observables)
+
 * Information Lattice
    * later: Bell
 
