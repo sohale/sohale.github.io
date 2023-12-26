@@ -161,8 +161,8 @@ I didn't know this had a name ("Analytic continuation" and "holomorphic function
 
 Things that turned out to be completely wrong:
 
-* Recursively-nested complex numbers (an extention of complex numbers):
-* I still think things like these can be possible and even useful. But the free form will be utterly useless. Clifford Algebra is a smart way to do such an extension, and I liked it for that reason. Clifford Algebra is a genius system/idea that of course was way beyond my capacity to invent at the time.
+* Recursively-nested complex numbers (an extension of complex numbers): (probably early 20s):
+    * I still think things like these can be possible and even useful. But the free form will be utterly useless. Clifford Algebra is a smart way to do such an extension, and I liked it for that reason. Like Clifford, I wanted to extend Hamilton's quaternions. Clifford Algebra is a genius system/idea that of course was way beyond my capacity to invent at the time.
 
 ## Concept: not fully implemented:
 
