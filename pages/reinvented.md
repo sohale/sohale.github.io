@@ -154,6 +154,16 @@ Programming Languages:
     * (later realised it can be formulated using Laplacian and Legendre transform )
     * 
 
+
+The concept of "**Analytic continuation**".
+Sounds hard-core, but it is something that I asked as a question my Algebra teacher in high-school and I was ridiculed. (I did not fully elaborate on it, but the reaction didn't allow me to, anyway). What I had in mind was the concept of "**holomorphic functions**", of course, I knew well, that a function can be freeform (It was thought that I didn't know this trivial fact).
+I didn't know this had a name ("Analytic continuation" and "holomorphic functions").
+
+Things that turned out to be completely wrong:
+
+* Recursively-nested complex numbers (an extention of complex numbers):
+* I still think things like these can be possible and even useful. But the free form will be utterly useless. Clifford Algebra is a smart way to do such an extension, and I liked it for that reason. Clifford Algebra is a genius system/idea that of course was way beyond my capacity to invent at the time.
+
 ## Concept: not fully implemented:
 
 * a proto-qemu
