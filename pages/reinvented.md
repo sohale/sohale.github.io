@@ -34,16 +34,18 @@ Algorithms:
    * Source code is lost
    * Later on I found out that what I was looking for was Lagrangian. The translations of physics books explaining Lagrangian were not good.
 
-* GUI-... (A GUI system based on state machines & using a )
+* The GUI-FSM DSL -...
+   *  (A GUI system based on state machines & using a DSL, message passing, etc)
+   * Fully implemented (1996)
    * featured its own programming language (DSL)
-   * with parser
+   * with full parser
    * used state machines
    * used delay
-   * used message passing
+   * used message passing (independent modules communicating via messages)
    * Featured a CSS-like vector language
-   * Fully implemented
    * "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
 
+* CSS (see GUI-FSM DSL)
 
 * A fully digital Audio workstation using PCs (it didn't exist at the time). (Mehr32)
    * Using real-time input (microphone, SPDIF). It actually worked with relatively low latency at the time.
