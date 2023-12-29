@@ -1,4 +1,4 @@
-# Things I reinvented
+# Things I re-invented
 
 and later I realised are already invented:
 
