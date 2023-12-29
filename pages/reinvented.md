@@ -35,7 +35,8 @@ Algorithms:
    * Later on I found out that what I was looking for was Lagrangian. The translations of physics books explaining Lagrangian were not good.
 
 * GUI-... (A GUI system based on state machines & using a )
-   * featured its own a programming language (DSL)
+   * featured its own programming language (DSL)
+   * with parser
    * used state machines
    * used delay
    * used message passing
@@ -57,14 +58,16 @@ Algorithms:
 
 * Some DSL ideas based on the above Mehr32
 
-* MLIR: I have plans aboit similar ideas in recent years, only last month (2023) I found out about MLIR and adaptors. I had even written a proposal about it in 2011, but I later reveloped it into a framework. Not implemented - yet. (under development).
+* MLIR: I have plans about similar ideas in recent years, only last month (2023) I found out about MLIR and adaptors.
+   * I even wrote a proposal about it in 2011, but later developed it into a framework. Not implemented - yet.
+   * (under development. Codename: `scalesym`)
 
 * JSON
    * An early idea I suggested, I realised it was just invented, and it was called JSON (posted in mailing list about 1999-2000)
 
 Theoretical models and models of computation:
 
-* Rewrite grammars (see findreplace)
+* Rewrite grammars (see find-replace)
    * A Perl-like language
 
 * Multi-head TM (a certain theoretical idea)
