@@ -128,11 +128,14 @@ Programming Languages:
 * My own version of geological mapping (interpolation) based on sparse depth observations (for reservoir exploration)
    * at age 17
 
-### Numerical
+### Numerical (Applied Mathematics)
+
 * Some information processing filters
     * Colour equalisation
+
 * (Failed) a good performing pitch-shifitng algorithm
     * Some pitch-shifting algorithms
+
 * The idea of pitch correction (before it became popular and known by me). Tried to implement it. My pitch-shifting algorithm did not perform well.
 
 ### Mathematics:
