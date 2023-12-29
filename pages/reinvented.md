@@ -34,18 +34,48 @@ Algorithms:
    * Source code is lost
    * Later on I found out that what I was looking for was Lagrangian. The translations of physics books explaining Lagrangian were not good.
 
-* The GUI-FSM DSL -...
-   *  (A GUI system based on state machines & using a DSL, message passing, etc)
-   * Fully implemented (1996)
-   * featured its own programming language (DSL)
-   * with full parser
+* The GUI-FSM DSL; a responsive GUI
+   * A GUI system based on the idea of state machines, using a DSL, actor model, event-driven (message passing), etc)
+   * Very versatile
+   * Identical to Stately / XState / statecharts  to https://stately.ai/ with very similar operators (including delay, CSS: before CSS or React was invented )  (but no graphic designer for the FSM itself, it was defined using programming language: what I still believe is we need more of programming languages)
+   * Fully implemented (Nov 1996) as a finished project
+   * Featured its programming language (DSL)
+       * Implemented a full parser for the DSL
    * used state machines
-   * used delay
+   * used `delay` operator (transition) ⟵ The part I was most proud of
    * used message passing (independent modules communicating via messages)
-   * Featured a CSS-like vector language
-   * "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
+   * It featured a CSS-like vector language
+       * Controlled by state
+       * Parser for that CSS (see below)
+       * Position of objects and windows could be changed (using drag and drop)
+   * Even the concept of "window" (with draggable title bar) was defined based on this FSM
+   * Features nesting objects (necessary for moving "window" s by holding their title bars and their contents would move)
+   * Idea of components and nesting them (before React etc, in 1996 CSS was only an idea in the mind of its inventor -- I didn't have internet access anyway)
+   * This was all using its minimal versatile internal DSL language
+   * I am most proud of the following aspects of it:
+       * concept of "delay", timeout, etc as a transition; that gave it automaticity, responsiveness/reactiveness, a sense of live-ness
+       * Use of the concept of DSL (Domain Specific Language) (with parser)
+           * Versatility despite the simplicity
+       * Very dynamic behaviour, despite a static DSL description
+           * Emphasise on language being declarative and static (despite dynamic behaviour/responsiveness)
+       * Total separation of objects (components) (Later I found it is called "actor model")
+       * I tried to even minimise event-driven message passing, to make it as declarative and "statically" understandable as possible (I thought it would be too Small-Talk-y! Only for interaction between the components (actors) that would interact in a seamless hierarchical/nested way)
+       * Total separation of graphics (CSS-like vector) from dynamic logic (close to current HTML/CSS/js model; but more elegant: there was no need for an all-purpose js)
+       * High-quality graphics and smooth movements
+
+   * A "Smoother" for mouse pointer (with pose) -- (prototypical Kalman filter)
+   * Presented the implementation as my "Advanced Programming" module's project in my first year BSc
+      * Ws used in a simple application of a database system with GUI form queries
+   * As a first step for a full window / GUI system for applications
+   * Implemented in C++ (no need for windows/HTML/browser)
 
 * CSS (see GUI-FSM DSL)
+    * A DSL for vector graphics for responsive GUI
+    * Same idea as CSS, but without HTML
+    * Separated logic from graphics (scalable, rotatable, movable, etc using affine transforms)
+    * featured animations via GUI_FSM's delay operator
+    * Implemented in Nov 1996 (The first implementation of CSS was implemented in 1996)
+    * Presented the implementation as my "Advanced Programming" module's project in my first year BSc
 
 * A fully digital Audio workstation using PCs (it didn't exist at the time). (Mehr32)
    * Using real-time input (microphone, SPDIF). It actually worked with relatively low latency at the time.
