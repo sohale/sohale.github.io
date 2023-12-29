@@ -51,9 +51,13 @@ Algorithms:
    * VVVV, My Mehr32 was a node-like toolkit, but for Audio. Later I realised it is referred to as VVVV-like systems, by some people.
    * The distributed version was conceived but not implemented.
 
+* "kernel fusion" (did not implement)
+
 * Many Compiler ideas for the above Mehr32 system
 
 * Some DSL ideas based on the above Mehr32
+
+* MLIR: I have plans aboit similar ideas in recent years, only last month (2023) I found out about MLIR and adaptors. I had even written a proposal about it in 2011, but I later reveloped it into a framework. Not implemented - yet. (under development).
 
 * JSON
    * An early idea I suggested, I realised it was just invented, and it was called JSON (posted in mailing list about 1999-2000)
