@@ -1,9 +1,7 @@
 # Things I re-invented
-
 and later I realised are already invented:
 
-## Genuinely invented
-but later realised they were invented or re-invented
+I first genuinely invented the following items on this page, but later realised they were invented (or re-invented)
 
 ### Computer Engineering/Science
 * awk (A cascadable grep/awk/sed -like tool set for DOS (without being aware of them in Unix)
