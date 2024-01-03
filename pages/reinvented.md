@@ -257,13 +257,17 @@ Things that turned out to be completely wrong:
 
 * System Identification by modular
 * GIL
+    * Soon to be published
     * (similar, but different (alternative) to the Free Energy Principle)
     * Based on Information Theory
     * Various aspects of it are related to Biology, Computer Science, and Mathematics
-    * I renamed it to `LGI` so as not to be confused with a similarly named concept related to Python.
-* Abstract Uncertainty
-    * (As part of `GIL`)
+    * I renamed it to `LGI` (so as not to be confused with a similarly named concept related to Python).
+    * Linked to concepts above: "Linear Logic Programming", "Templators", etc
+
 * A certain version of Information Bottleneck
+
+* "Abstract Uncertainty"
+    * (As part of `GIL`)
 
 * Transfer Entropy!
 (Yes, I invented it independently, before reading about it)
