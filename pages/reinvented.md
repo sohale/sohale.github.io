@@ -256,7 +256,13 @@ Things that turned out to be completely wrong:
 * The Zoom Lens model of attention
 
 * System Identification by modular
-* GIL (similar, but different to Free Energy Principle)
+* GIL
+    * (similar, but different (alternative) to the Free Energy Principle)
+    * Based on Information Theory
+    * Various aspects of it are related to Biology, Computer Science, and Mathematics
+    * I renamed it to `LGI` so as not to be confused with a similarly named concept related to Python.
+* Abstract Uncertainty
+    * (As part of `GIL`)
 * A certain version of Information Bottleneck
 
 * Transfer Entropy!
