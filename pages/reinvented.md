@@ -48,6 +48,9 @@ Algorithms:
        * Controlled by state
        * Parser for that CSS (see below)
        * Position of objects and windows could be changed (using drag and drop)
+       * Done before CSS and JavaScript invented (at least I was not aware of them: JS was released in December 1995 and CSS1 was released as a standard in 1996)
+       * The idea of using vector graphics was inspired by my(!) POSTSCRIPT interpreter (yes I implemented a postscript interpreter, which was not completed of source, since PS is a huge language) which is a Forth-like (stack-based) language
+       * Separation of concern of content from presentation was the main idea
    * Even the concept of "window" (with draggable title bar) was defined based on this FSM
    * Features nesting objects (necessary for moving "window" s by holding their title bars and their contents would move)
    * Idea of components and nesting them (before React etc, in 1996 CSS was only an idea in the mind of its inventor -- I didn't have internet access anyway)
