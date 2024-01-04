@@ -141,6 +141,7 @@ Programming Languages:
    * ownership pointers (the idea that made Rust-language a hit)
    * Data flow analysis
    * Compile-time types & arguments (made popular in Zig)
+       * 'ctime'
    * Compile-time as a legitimate mode (made popular in Zig)
 
 * A system (and developed numerous ideas) for heavy use of Macro-based programming (before knowing about C++ & `template`)
