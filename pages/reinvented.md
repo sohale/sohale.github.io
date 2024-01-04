@@ -92,6 +92,7 @@ Algorithms:
     * It was based on ideas of Quantum Information Theory and Quantum Computing
     * The `chain-flow` had more other aspects to it (including a programming language, `Tamplators` (see related item), `GIL` (don't confuse with a similarly named concept in Python, I shall rename it to `LGI`), etc)
     * "Linear Logic Programming", is based on the "[Linear Logic](https://en.wikipedia.org/wiki/Linear_logic)" invented in the 80s by Mathematician [Jean-Yves Girard](https://en.wikipedia.org/wiki/Jean-Yves_Girard). As a programming paradigm, has recently gained attraction; such as the *Hare* programming language.
+    * Some roots in Mehr32 (jMusic) using fanout ('cache') operator.
 
 * Many Compiler ideas for the above Mehr32 system
 
