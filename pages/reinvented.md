@@ -284,6 +284,12 @@ Things that turned out to be completely wrong:
 
 * Earth-Moving Distance (EMD)
 
+* Communication Complexity
+    * As a measure of computational complexity
+
+* I pioneered use of Information flow in analysis of Computational Complexity. (provable communication, led to a related PhD Thesis)
+
+
 * The discovery that retinal cells in the periphery are more sensitive to lightness (lower threshold of peripheral vision)
    * During my childhood psychophysics-like experiments (by observing stars and galaxies are visible only by the corner of the eyes, and making sense of it and noting it and framing it as a concept, not dismissing it as an error.
    * First, It was annoying me and after a while I realised it is a robust phenomenon.)
