@@ -289,6 +289,14 @@ Things that turned out to be completely wrong:
 
 * I pioneered use of Information flow in analysis of Computational Complexity. (provable communication, led to a related PhD Thesis)
 
+* Resourve Theory (in physics)
+    * As a lime in generalisation of entropy
+ 
+* Physics as Information
+    * Informationality of Physics (and biology and Mathematics)
+    * Computationality of Physics
+    * Physicality of Computation (despite Bennett's argument)
+    * Computationality of societial processes, evolution, etc
 
 * The discovery that retinal cells in the periphery are more sensitive to lightness (lower threshold of peripheral vision)
    * During my childhood psychophysics-like experiments (by observing stars and galaxies are visible only by the corner of the eyes, and making sense of it and noting it and framing it as a concept, not dismissing it as an error.
