@@ -289,8 +289,9 @@ Things that turned out to be completely wrong:
 
 * I pioneered use of Information flow in analysis of Computational Complexity. (provable communication, led to a related PhD Thesis)
 
-* Resourve Theory (in physics)
-    * As a lime in generalisation of entropy
+* Resource Theory (in physics)
+    * As a line in generalisation of entropy
+    * See Coecke et al, & Joan Baez's talks (I found these after I reached a similar abstraction and definition)
  
 * Physics as Information
     * Informationality of Physics (and biology and Mathematics)
