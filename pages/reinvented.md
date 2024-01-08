@@ -374,8 +374,9 @@ Things that turned out to be completely wrong:
           * Use of PP for corporates
           * Later I found the work of Bijan Khezri of KCRI, which seems a similar idea about the PP side
           * My Orglang system has other aspects not covered by KCRI (the "l" side)
-      * Argument Tree
-      * The accountability system
+      * An accountability system (two versions)
+         * A certain advanced system of "Argument Tree" and "Argument Map"
+      * Various Collaborative/Collective/D.A. Decision systems
 
 ## Philosophy
 * Epistemology
