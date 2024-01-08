@@ -372,7 +372,7 @@ Things that turned out to be completely wrong:
           * A certain conception of Digital Democracy and Digital State
       * crop-org/l.a.ng
           * Use of PP for corporates
-          * Later I found the work of B.Khezri of KCRI, which seems a similar idea about the PP side
+          * Later I found the work of Daniel Khezri of KCRI, which seems a similar idea about the PP side
           * My Orglang system has other aspects not covered by KCRI (the "l" side)
       * An accountability system (two versions)
          * A certain advanced system of "Argument Tree" and "Argument Map"
