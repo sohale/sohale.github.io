@@ -370,10 +370,12 @@ Things that turned out to be completely wrong:
       * In the summer of 2005, I came up with a certain design & architecture for what I later realised is called DAO (also DAG)
           * Also Delibration
           * A certain conception of Digital Democracy and Digital State
-      * org/l.a.ng
+      * crop-org/l.a.ng
           * Use of PP for corporates
           * Later I found the work of Bijan Khezri of KCRI, which seems a similar idea about the PP side
           * My Orglang system has other aspects not covered by KCRI (the "l" side)
+      * Argument Tree
+      * The accountability system
 
 ## Philosophy
 * Epistemology
