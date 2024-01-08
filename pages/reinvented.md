@@ -137,6 +137,7 @@ Programming Languages:
 
 
 * CPU description language (an idea related to HW/SW co-design). See the QEMU-like.
+     * Software-defined CPU
 
 * Programming languages design constructs & syntaxes:
    * ownership pointers (the idea that made Rust-language a hit)
