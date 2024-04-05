@@ -14,8 +14,11 @@ I first genuinely invented the following items on this page, but later realised 
     * preceeded: VNC
     * for: Windows 95, Win32
 
-* RISC: Reduced Instruction Set Computer !
+* RISC ISA: Reduced Instruction Set Computer ISA
    * I invented in 1989-1990 (age 12)
+      * as an attempt to minimise the hardware required for a CPU.
+      * Motivated by another question:
+      * To find the theoretical limits of minimising a CPU design "circuit complexity" (it is not trivial!).
    * Not physically implemented. Remained on paper.
 
 Algorithms:
