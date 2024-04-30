@@ -13,11 +13,11 @@ I first genuinely invented the following items on this page, but later realised 
     * when: 1997
     * preceded: VNC ( RealVNC )
     * for: Windows 95, Win32
-    * Delivered/presented for modules: "Operating Systems Lab" (University of Isfahan), and "Programming Languages Design" (AKU/Tehran Polytechnique)
+    * Delivered/presented: 1997: AKU/Tehran Polytechnique ("Programming Languages Design" module), 1999 Univ. of Isfahan (final project for module: "Operating Systems Lab", Prof. [Kamran Zamanifar](https://www.linkedin.com/in/kamran-zamanifar-42156b65/))
     * Written in: Visual C++ (Win32 GDI)
     * Features: RLE encoding (compression), difference (only sending changes/diffs), mouse input, keyboard input.
     * It was before MS added the "Remote Desktop" feature, before VNC (RealVNC, TightVNC), ...
-    * My intention/inspiration was to use one computer by more than one person (for personal & economical reasons). As a step that aspired to make Windows, a multi-user OS.
+    * My intention/inspiration was to use one computer by more than one person (for personal & economical motivations). As a step that aspired to make Windows, a multi-user OS.
 
 * RISC ISA: Reduced Instruction Set Computer ISA
    * I invented in 1989-1990 (age 12)
