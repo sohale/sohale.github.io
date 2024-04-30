@@ -9,10 +9,15 @@ I first genuinely invented the following items on this page, but later realised 
     * for: MS DOS/Windows
     * disillusioned: by awk/sed
 
-* Remote terminal
+* Remote terminal (VNC)
     * when: 1997
-    * preceeded: VNC
+    * preceded: VNC ( RealVNC )
     * for: Windows 95, Win32
+    * Delivered/presented for modules: "Operating Systems Lab" (University of Isfahan), and "Programming Languages Design" (AKU/Tehran Polytechnique)
+    * Written in: Visual C++ (Win32 GDI)
+    * Features: RLE encoding (compression), difference (only sending changes/diffs), mouse input, keyboard input.
+    * It was before MS added the "Remote Desktop" feature, before VNC (RealVNC, TightVNC), ...
+    * My intention/inspiration was to use one computer by more than one person (for personal & economical reasons). As a step that aspired to make Windows, a multi-user OS.
 
 * RISC ISA: Reduced Instruction Set Computer ISA
    * I invented in 1989-1990 (age 12)
