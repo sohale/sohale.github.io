@@ -434,6 +434,13 @@ Media, sociology:
 * Recorded some music with it
 
 
+### Terms & phrases
+Coined, phrased, independently, or preceeding:
+* **Adrenaline Nation**  (in a [blog post published 28 Feb 2006](https://sohale.blogspot.com/2006/02/adrenaline-nation.html)) -- Anna Lembke ( in her [book, published 24 Aug. 2021](https://www.amazon.de/-/en/Dr-Anna-Lembke/dp/152474672X))
+    * The Dopamin is more obvious, the Norepinephrine one is more subtle: PTSD, inter-generatioal traumas, and its treatments, are all compressed in my post.
+    * Another related: "Neurotransmitters in the Air" [July 2007](https://sohale.blogspot.com/2007/07/society.html), which is a generalisation.
+* **Attention Economy** (me: 2006) -- (Matthew Crawford: 2001), but independently coined.
+
 ### Not reinvented, but made
 * A telescope, 1988 (Using lenses made for glasses, together with my weak binocular eyepiece, and a cardboard pipe)
 
