@@ -290,7 +290,7 @@ about Habeluna. (todo: link)
 * PP-Adrian: Machens.
 
 
-## Neuroscinec-flavoured Infomation Theory
+### Neuroscience-flavoured Infomation Theory
 
 * A certain version of Information Bottleneck
 
