@@ -434,6 +434,15 @@ Media, sociology:
 * "Quantum Asymmetric Cloning Machines" (published paper in PLA)
 * "Physics as Information Processing" (rediscovery) ( book title to be written)
 
+
+### Chemistry:
+#### Discovered
+* Glycerol with potassium permanganate causing explosive reaction
+(accidental childish discovery, about age 10, ~1987 )
+
+[explanation](https://en.wikipedia.org/wiki/Glycerol_and_potassium_permanganate)
+
+
 ## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
 
@@ -442,15 +451,16 @@ Media, sociology:
 * Metaballs (Implicit Surface modelling rendering using Ray Casting)
     * I "guessed" the method and formula for the implicit object modelling based on a small paragram I read about it in a magazine. I was inspired by certain types of "Penumbra" (half-shadows) -- I was fascinated by various optical phenomena. I used to spend a lot of time observing optic phenomena, because of my interest in optics, long hours of star gazing, playing with optical phenomena, I was obsessed with astronomy observation, telescopes (I intended to build a telescope at age 8 but eventually built my first telescope much later, in age probably 10-11 at end of primary school). Later on, at age 12-13, also I was obsessed with visualising  electrical fields and potential fields based on Coulomb's law -- using computers as well as on paper.
 
-### Chemistry:
-* Glycerol with potassium permanganate causing explosive reaction
-(accidental childish discovery, about age 10, ~1987 )
 
 ### Music
+
+#### Musical Instrument
 * PAGWA instrument (digital sliding guitar)
 * Fully implemented using MIDI & using a Nichrome heater element & A/D converter, functional on Amiga.
 * Recorded some music with it
 
+#### Musical Notation
+A stack-based musical notation
 
 ### Terms & phrases
 Coined, phrased, independently, or preceeding:
