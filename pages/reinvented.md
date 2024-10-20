@@ -438,9 +438,9 @@ Media, sociology:
 ### Chemistry:
 #### Discovered
 * Glycerol with potassium permanganate causing explosive reaction
-(accidental childish discovery, about age 10, ~1987 )
-
-[explanation](https://en.wikipedia.org/wiki/Glycerol_and_potassium_permanganate)
+    * Accidental childish discovery
+    * about age 10, ~1987
+    * [explanation](https://en.wikipedia.org/wiki/Glycerol_and_potassium_permanganate)
 
 
 ## Business ideas (not implemented)
