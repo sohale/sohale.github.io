@@ -430,10 +430,26 @@ Media, sociology:
 * Schopenhauer's worls as R & W
 
 ## Physics
-* Link between Information theory & Physics
-* "Quantum Asymmetric Cloning Machines" (published paper in PLA)
-* "Physics as Information Processing" (rediscovery) ( book title to be written)
 
+### Link between Information theory & Physics
+
+### "Quantum Asymmetric Cloning Machines"
+(published paper in PLA)
+
+### "Physics as Information Processing"
+* Following my work in Quantu Ifnoamtion THeory ("Quantum Asymmetric Cloning Machines"),
+I got GIL.
+Based on the GIL, I found out that certain insights about information also hold in cold physics.
+This led me to the idea of "physics" (quantum, classical, cosmological, etc) being about signalling and infomation.
+(I also knew Special Relativity since age ~13 )
+It, too, was about signalling and "bounds on infomration travel in fabrics of the universe" (this is how I put it).
+* "Physics as Information Processing"
+    * (rediscovery) ( book title to be written)
+    * I later found an existing book, which was considered niche. But it is turning into mainstream. 
+* that is, the Information nature of physics and Physics laws
+* in mainstream phsyics it is about the "Quantum Information" explanations of phsyics
+    * (recently I realised this is a movement in physics and many physicists are converting )
+    * QI-nature of physical laws
 
 ### Chemistry:
 #### Discovered
