@@ -437,6 +437,7 @@ Media, sociology:
 ## Business ideas (not implemented)
 * Twitter: social network by limiting (constraining) the message length
 
+## Reinvented
 ### Reinvented knowing they exist, based on the general idea, without any technical details (in pre-internet):
 * Metaballs (Implicit Surface modelling rendering using Ray Casting)
     * I "guessed" the method and formula for the implicit object modelling based on a small paragram I read about it in a magazine. I was inspired by certain types of "Penumbra" (half-shadows) -- I was fascinated by various optical phenomena. I used to spend a lot of time observing optic phenomena, because of my interest in optics, long hours of star gazing, playing with optical phenomena, I was obsessed with astronomy observation, telescopes (I intended to build a telescope at age 8 but eventually built my first telescope much later, in age probably 10-11 at end of primary school). Later on, at age 12-13, also I was obsessed with visualising  electrical fields and potential fields based on Coulomb's law -- using computers as well as on paper.
