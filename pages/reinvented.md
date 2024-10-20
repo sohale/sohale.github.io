@@ -276,6 +276,22 @@ Things that turned out to be completely wrong:
     * I renamed it to `LGI` (so as not to be confused with a similarly named concept related to Python).
     * Linked to concepts above: "Linear Logic Programming", "Templators", etc
 
+* clash of clones (selfish self)
+
+* time-boxing the horizon in RL. I recently realised one of the theories I had in my "backlog" stash, is being explited and invested heavily by Dopamine researcher A. (todo: link)
+
+* In a meeting in Cambridge, same bar that C & W discussed, (and jokingly saying so),
+I mentioned "reward preiciton error" signals
+may be about information.
+It was rejected.
+But later I saw the exact thing exaclty in a talk, in 2021:
+about Habeluna. (todo: link)
+
+* PP-Adrian: Machens.
+
+
+## Neuroscinec-flavoured Infomation Theory
+
 * A certain version of Information Bottleneck
 
 * "Abstract Uncertainty"
@@ -354,6 +370,7 @@ Things that turned out to be completely wrong:
    * Was a proposal for a PhD assignment
    * Noise injection
    * Multiplicaive noise
+   * bounded weights (I called it non-extensive)
 
 * Stochastic normalisation (loop)
     * I think it is realted to some ideas in Boltzmann machines
