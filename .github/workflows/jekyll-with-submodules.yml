@@ -96,7 +96,7 @@ jobs:
                   set -e &&
                   set -x &&
                   cd /srv/jekyll &&
-                  chmod -R 777 .  && echo "write access is needed for gem install etc" &&
+                  chmod -R 777 .  && echo 'write access is needed for gem install etc' &&
                   gem install bundler &&
                   bundle install --jobs 4 --retry 3 &&
                   cd /srv/jekyll &&
@@ -115,6 +115,7 @@ jobs:
         # `_site/` is mounted from the GitHub runner → Docker wrote into it. The `_site` contains the full website
         cd _site
         pwd
+        git config --global init.defaultBranch main  # note that it affects thw whole workflow(?) "globally"
         git init
         git checkout -b gh-pages
         git add .
