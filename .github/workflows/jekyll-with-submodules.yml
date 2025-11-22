@@ -14,6 +14,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Enable GitHub debug logging
+      run: |
+        echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+        echo "GIT_TRACE=1" >> $GITHUB_ENV
+        echo "GIT_CURL_VERBOSE=1" >> $GITHUB_ENV
+
+    - name: Enable git debugging
+      run: |
+        git config --global advice.detachedHead false
+        git config --global log.showSignature false
+        git config --global fetch.showForcedUpdates true
+        git config --global core.verbose true
+        git config --global submodule.recurse true
+        git config --global transfer.fsckobjects true
+        git config --global trace true || true
+
     - name: Checkout repo with submodules (including PAT for submodule(s) with private repo)
       # uses: actions/checkout@v6
       #     This industry is shit
@@ -25,7 +42,7 @@ jobs:
          repository: "${{ github.repository }}"
          token: ${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}
          submodules: "recursive"
-         # persist-credentials: false
+         persist-credentials: false
     
     - name: Force PAT for submodules
       run: |
