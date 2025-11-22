@@ -17,10 +17,10 @@ jobs:
       uses: actions/checkout@v6
       #  This industry is shit
       # uses: actions/checkout@v4
-      with:
-        # submodules: recursive
-        token: ${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}
-        # persist-credentials: false
+      #with:
+      #  # submodules: recursive
+      #  token: ${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}
+      #  # persist-credentials: false
     
     - name: Force PAT for submodules
       run: |
