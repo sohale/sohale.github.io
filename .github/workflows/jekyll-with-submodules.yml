@@ -13,7 +13,7 @@ on:
     types: [opened, synchronize, closed]
 
 jobs:
-  build:
+  buildMaPage:
 
     runs-on: ubuntu-latest
 
@@ -66,13 +66,7 @@ jobs:
         ls -R demos
         echo "6==="
         ls -la ${{ github.workspace }}
-    
-    # Can be removed: manual git submodule update—unnecessary when using checkout correctly.
-    #- name: Checkout submodules (why not odone automatically? how was it working before, then?)
-    #  run: git submodule update --init --recursive
-    #
-    #- name: List workspace content (post-sm)
-    #  run: ls -la ${{ github.workspace }}
+
 #
 # From: https://github.com/marketplace/actions/checkout-submodules
 #    - name: Checkout submodules
@@ -102,14 +96,15 @@ jobs:
                   cd /srv/jekyll &&
                   chmod 777 /srv/jekyll &&
                   jekyll build --trace --future --disable-disk-cache --verbose
+                  # invalid option:
               "
         echo "This line is the next command after docker run (prev exit code was $1 )"   # back to "run" block
         ls -alth _site
         
     # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
 
-    
     - name: "Deploy to external repo via https://github.com/sohale/kill-build"
+      if: ${{false}}
       run: |
         pwd
         # `_site/` is mounted from the GitHub runner → Docker wrote into it. The `_site` contains the full website
@@ -130,6 +125,7 @@ jobs:
         #  gh-pages
     
     - name: Deploy to/via *kill-build* repo without force -f
+      if: ${{false}}
       run: |
         # Clone the target repo
         git clone \
@@ -155,8 +151,44 @@ jobs:
         if ! git diff --cached --quiet; then
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git commit -m "Update build from CI"
+          git commit -m "Update built page/site from CI"
           git push origin gh-pages
         else
           echo "No changes to deploy."
         fi
+
+    # indentation: step-level:
+    # jobs: -> buildMaPage: -> steps:
+    # steps:
+  
+    - name: Upload site artifact
+      # Thank god: GitHub Pages Actions do not use branches anymore.
+      # use artifacts and a hidden internal deployment pipeline.
+      # “We give GitHub Pages the entire site as a zip file.”
+      # it is a "temporary" (hidden: non-obsevable! In C++ sense)
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./_site
+
+    - name: Inspect the "temporary" uploaded artifact
+      run: |
+        ls -R _site
+
+  # next job (was: jobs: -> buildMaPage:)
+
+  deploy-job:
+    # deploys directly, and manually
+    # only deploy after buildMaPage finished
+    needs: buildMaPage
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
