@@ -27,6 +27,6 @@ jobs:
           jekyll/builder:latest \
               /bin/bash -c "
                   chmod 777 /srv/jekyll &&
-                  jekyll build --trace --future --disable-disk-cache timezone: Europe/London
+                  jekyll build --trace --future --disable-disk-cache
               "
 
