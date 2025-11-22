@@ -95,8 +95,8 @@ jobs:
                   bundle install --jobs 4 --retry 3 &&
                   cd /srv/jekyll &&
                   chmod 777 /srv/jekyll &&
-                  jekyll build --trace --future --disable-disk-cache --verbose
-                  # invalid option:
+                  jekyll build --trace --future --verbose
+                  # invalid option:  --disable-disk-cache
               "
         echo "This line is the next command after docker run (prev exit code was $1 )"   # back to "run" block
         ls -alth _site
