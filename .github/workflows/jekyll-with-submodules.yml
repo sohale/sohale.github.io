@@ -93,16 +93,17 @@ jobs:
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest \
               /bin/bash -c "
+                  set -e &&
+                  set -x &&
                   cd /srv/jekyll &&
-                  chmod -R 777 .  && "echo write access is needed for gem install etc" &&
+                  chmod -R 777 .  && echo "write access is needed for gem install etc" &&
                   gem install bundler &&
                   bundle install --jobs 4 --retry 3 &&
                   cd /srv/jekyll &&
                   chmod 777 /srv/jekyll &&
                   jekyll build --trace --future --disable-disk-cache --verbose
               "
-        # back to "run" block
-        echo "next instruciotn after docker run (prev exit ode was $1 )"
+        echo "This line is the next command after docker run (prev exit code was $1 )"   # back to "run" block
         ls -alth _site
         
     # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
@@ -110,13 +111,16 @@ jobs:
     
     - name: "Deploy to external repo via https://github.com/sohale/kill-build"
       run: |
+        pwd
         # `_site/` is mounted from the GitHub runner → Docker wrote into it. The `_site` contains the full website
         cd _site
+        pwd
         git init
         git checkout -b gh-pages
         git add .
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor }}@users.noreply.github.com"
+        # May cause: nothing to commit (create/copy files and use "git add" to track)
         git commit -m "Deploy site"
 
         # oops NO!
