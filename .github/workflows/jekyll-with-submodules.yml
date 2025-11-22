@@ -94,6 +94,7 @@ jobs:
           jekyll/builder:latest \
               /bin/bash -c "
                   cd /srv/jekyll &&
+                  chmod -R 777 .  && "echo write access is needed for gem install etc" &&
                   gem install bundler &&
                   bundle install --jobs 4 --retry 3 &&
                   cd /srv/jekyll &&
