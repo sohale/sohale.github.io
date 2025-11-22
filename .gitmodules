@@ -9,4 +9,4 @@
 [submodule "demos/daylightworldmap"]
 	path = demos/daylightworldmap
 	url = https://github.com/sohale/daylightworldmap.git
-    branch = main
+        branch = main
