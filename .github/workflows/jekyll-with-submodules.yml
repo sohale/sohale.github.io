@@ -89,6 +89,11 @@ jobs:
               /bin/bash -c "
                   set -e &&
                   set -x &&
+                  git config --global --add safe.directory /srv/jekyll &&
+                  export PAGES_REPO_NWO=sohale/sohale.github.io &&
+                  echo "also see _config.yml" &&
+                  cat _config.yml &&
+                  echo "---" &&
                   cd /srv/jekyll &&
                   chmod -R 777 .  && echo 'write access is needed for gem install etc' &&
                   gem install bundler &&
