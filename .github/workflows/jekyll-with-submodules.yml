@@ -101,6 +101,24 @@ jobs:
                   chmod 777 /srv/jekyll &&
                   jekyll build --trace --future --disable-disk-cache --verbose
         echo "next instruciotn after docker run (prev exit ode was $1 )"
+        ls -alth _site
         
               "
+    # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
+    
+    - name: "Deploy to external repo via https://github.com/sohale/kill-build"
+      run: |
+        # `_site/` is mounted from the GitHub runner → Docker wrote into it. The `_site` contains the full website
+        cd _site
+        git init
+        git checkout -b gh-pages
+        git add .
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git commit -m "Deploy site"
+
+        # oops NO!
+        #git push --force \
+        #  "https://${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}@github.com/sohale/kill-build.git" \
+        #  gh-pages
 
