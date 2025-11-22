@@ -5,3 +5,6 @@
 	path = demos/implisolid-build
 	url = https://github.com/sohale/implisolid-build.git
 	branch = master
+[submodule "demos/daylightworldmap"]
+	path = demos/daylightworldmap
+	url = git@github.com:siadat/daylightworldmap.git
