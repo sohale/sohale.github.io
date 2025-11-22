@@ -100,10 +100,11 @@ jobs:
                   cd /srv/jekyll &&
                   chmod 777 /srv/jekyll &&
                   jekyll build --trace --future --disable-disk-cache --verbose
+              "
+        # back to "run" block
         echo "next instruciotn after docker run (prev exit ode was $1 )"
         ls -alth _site
         
-              "
     # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
 
     
