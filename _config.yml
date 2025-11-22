@@ -1,2 +1,17 @@
 theme: jekyll-theme-hacker
+
+
+plugins:
+  - jekyll-seo-tag
+
+# Using alternative using env in jekyl (docker): export PAGES_REPO_NWO=sohale/sohale.github.io
+# repository: sohale/sohale.github.io
+
+baseurl: ""
+
+url: "https://sohale.github.io"
+
+# To disable metadata plugin: e.g., repo links, GitHub-aware title handling, maintainer metadata, etc
+# github: [false]
+
 # timezone: Europe/London
