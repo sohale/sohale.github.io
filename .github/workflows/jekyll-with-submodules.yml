@@ -105,6 +105,7 @@ jobs:
         
               "
     # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
+
     
     - name: "Deploy to external repo via https://github.com/sohale/kill-build"
       run: |
@@ -121,4 +122,35 @@ jobs:
         #git push --force \
         #  "https://${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}@github.com/sohale/kill-build.git" \
         #  gh-pages
-
+    
+    - name: Deploy to/via *kill-build* repo without force -f
+      run: |
+        # Clone the target repo
+        git clone \
+          "https://${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}@github.com/sohale/kill-build.git" \
+          /tmp/kill-build
+    
+        cd /tmp/kill-build
+    
+        # Check out gh-pages (create if missing)
+        if git rev-parse --verify gh-pages >/dev/null 2>&1; then
+          git checkout gh-pages
+        else
+          git checkout --orphan gh-pages
+          # git rm -rf .
+        fi
+    
+        # Copy built files from _site into repo, overwriting duplicates
+        cd /tmp/kill-build
+        rsync -av --delete-before $GITHUB_WORKSPACE/_site/ ./
+    
+        # Commit changes only if modified
+        git add .
+        if ! git diff --cached --quiet; then
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git commit -m "Update build from CI"
+          git push origin gh-pages
+        else
+          echo "No changes to deploy."
+        fi
