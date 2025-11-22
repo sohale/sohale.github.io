@@ -91,9 +91,11 @@ jobs:
                   set -x &&
                   git config --global --add safe.directory /srv/jekyll &&
                   export PAGES_REPO_NWO=sohale/sohale.github.io &&
-                  echo "also see _config.yml" &&
+                  echo 'also see _config.yml' &&
                   cat _config.yml &&
-                  echo "---" &&
+                  echo '---' &&
+                  REPLC_TEXT=\"$(date) $(pwd)\" &&
+                  sed -i \"s/hand: @@/${REPLC_TEXT}/\" index.html &&
                   cd /srv/jekyll &&
                   chmod -R 777 .  && echo 'write access is needed for gem install etc' &&
                   gem install bundler &&
@@ -104,7 +106,10 @@ jobs:
                   echo 'sanity after jekyl-build: ' $1
               "
         echo "This line is the next command after docker run (prev exit code was $1 )"   # back to "run" block
+        pwd
+        realpath ./_site
         ls -alth _site
+        echo "oK."
         
     # ^ but this will go nowehere: has nowhere to go to. Hence, next step:
 
