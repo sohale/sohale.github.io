@@ -80,6 +80,12 @@ jobs:
 #      with:
 #        args: git submodule update --init --recursive
 
+
+    - name: Create Gemfile dynamically
+      run: |
+        echo "source 'https://rubygems.org'" > Gemfile
+        echo "gem 'github-pages', group: :jekyll_plugins" >> Gemfile
+
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
@@ -87,6 +93,10 @@ jobs:
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest \
               /bin/bash -c "
+                  cd /srv/jekyll &&
+                  gem install bundler &&
+                  bundle install --jobs 4 --retry 3 &&
+                  cd /srv/jekyll &&
                   chmod 777 /srv/jekyll &&
                   jekyll build --trace --future --disable-disk-cache --verbose
               "
