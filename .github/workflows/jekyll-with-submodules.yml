@@ -19,6 +19,16 @@ jobs:
 #      uses: srt32/git-actions@v0.0.3
 #      with:
 #        args: git submodule update --init --recursive
+
+    - name: List workspace content (pre-sm)
+      run: ls -la ${{ github.workspace }}
+
+    - name: Checkout submodules (why not odone automatically? how was it working before, then?)
+      run: git submodule update --init --recursive
+  
+    - name: List workspace content (post-sm)
+      run: ls -la ${{ github.workspace }}
+
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
@@ -27,6 +37,6 @@ jobs:
           jekyll/builder:latest \
               /bin/bash -c "
                   chmod 777 /srv/jekyll &&
-                  jekyll build --trace --future --disable-disk-cache
+                  jekyll build --trace --future --disable-disk-cache --verbose
               "
 
