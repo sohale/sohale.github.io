@@ -3,8 +3,9 @@ name: Jekyll site CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+
+  #pull_request:
+  #  branches: [ master ]
 
 jobs:
   build:
@@ -17,6 +18,11 @@ jobs:
       with:
         submodules: recursive
         token: ${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}
+        persist-credentials: false
+    
+    - name: Force PAT for submodules
+      run: |
+        git config --global url."https://${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}:@github.com/".insteadOf "https://github.com/"
 
 #
 # From: https://github.com/marketplace/actions/checkout-submodules
@@ -25,9 +31,21 @@ jobs:
 #      with:
 #        args: git submodule update --init --recursive
 
-    - name: List workspace content (pre-sm)
-      run: ls -la ${{ github.workspace }}
-
+    - name: Debug contents: List workspace content (pre-sm)
+      run: |
+        echo "1=== check Submodules ==="
+        git submodule status
+        echo "2==="
+        ls -R demos
+        echo "3==="
+        git submodule update --init --recursive
+        echo "4==="
+        ls -la
+        echo "5==="
+        ls -R demos
+        echo "6==="
+        ls -la ${{ github.workspace }}
+    
     # Can be removed: manual git submodule update—unnecessary when using checkout correctly.
     #- name: Checkout submodules (why not odone automatically? how was it working before, then?)
     #  run: git submodule update --init --recursive
