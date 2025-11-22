@@ -24,14 +24,7 @@ jobs:
       run: |
         git config --global url."https://${{ secrets.GH_PAT_FOR_SUBMODULES_PULL }}:@github.com/".insteadOf "https://github.com/"
 
-#
-# From: https://github.com/marketplace/actions/checkout-submodules
-#    - name: Checkout submodules
-#      uses: srt32/git-actions@v0.0.3
-#      with:
-#        args: git submodule update --init --recursive
-
-    - name: Debug contents: List workspace content (pre-sm)
+    - name: "Debug contents: List workspace content (pre-sm)"
       run: |
         echo "1=== check Submodules ==="
         git submodule status
@@ -52,6 +45,12 @@ jobs:
     #
     #- name: List workspace content (post-sm)
     #  run: ls -la ${{ github.workspace }}
+#
+# From: https://github.com/marketplace/actions/checkout-submodules
+#    - name: Checkout submodules
+#      uses: srt32/git-actions@v0.0.3
+#      with:
+#        args: git submodule update --init --recursive
 
     - name: Build the site in the jekyll/builder container
       run: |
