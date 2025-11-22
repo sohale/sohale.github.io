@@ -12,7 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repo with submodules (including PAT for submodule(s) with private repo)
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        token: ${{ secrets.GH_PAT }}
+
 #
 # From: https://github.com/marketplace/actions/checkout-submodules
 #    - name: Checkout submodules
@@ -23,6 +28,7 @@ jobs:
     - name: List workspace content (pre-sm)
       run: ls -la ${{ github.workspace }}
 
+    # Can be removed: manual git submodule update—unnecessary when using checkout correctly.
     - name: Checkout submodules (why not odone automatically? how was it working before, then?)
       run: git submodule update --init --recursive
   
