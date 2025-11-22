@@ -1,4 +1,8 @@
-name: Jekyll site CI
+
+# Note: Apart foemr this, there exists a
+#      "GitHub Pages auto-deployment workflow"
+
+name: Jekyll site CI by sosi himself
 
 on:
   push:
