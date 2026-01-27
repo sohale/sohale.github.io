@@ -45,6 +45,13 @@ For degrees and post-docs, see [education] page.
 - Workshop on Quantum Computing — Institute for Studies in Theoretical Physics and Mathematics (IPM), Aug 1–5, 2004, Tehran.  
   * [link](https://math.ipm.ac.ir/conferences/2004/qc2004/)
 
+- Intentionality course (Philosophy of Mind), IRIP.
+
+- Philosophy of Mind: Contemporary Readings (course and seminar series based on O'Connor & Robb's 2003 [text book](https://doi.org/10.4324/9780203987698) from Routledge Contemporary Readings in Philosophy), IRIP.
+   * Plus follow-up seminars on Philosophy of Mind at IRIP.
+
+- Reading Hegel's Philosophy of Mind, a philosophy course (2003-2004). Followed by part two of this course.
+
 - Course: Computational Modeling of Neural Cells (2002), School of Cognitive Sciences, IPM, Tehran, Iran
    * (Included [XPP/XPPAUT](https://sites.pitt.edu/~phase/bard/bardware/xpp/whatis.html) for phase-plane analysis of neural dynamics, and the [NEURON](https://nrn.readthedocs.io/) Simulator )
   * (No surviving webpage)
@@ -63,6 +70,8 @@ For degrees and post-docs, see [education] page.
 - The Organizer, SUT Biomath Seminars / Journal Club, Dept Mathematical Sciences, SUT (2003-2004)
 
 - For actual university Teaching (lecturer), industry teaching, etc, see: [page].
+
+- Also: organised and ran long-standing book reading groups: "Predictive Processing" (2017-2019), and Phenomenology of Mind (2010-2011).
 
 Notes:
 - Some entries do not have surviving webpages; they are included for completeness.
