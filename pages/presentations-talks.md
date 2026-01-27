@@ -2,8 +2,7 @@ Sohail Siadatnejad
 
 # Selected talks and presentations
 
-
-2014: Quantifying Information In the Brain (Viva)
+2013: Quantifying Information in the Brain (Viva)
 
 2009: Quantifying Neural Information in Elecrophysiology recordings (Viva)
 
@@ -34,3 +33,5 @@ Sohail Siadatnejad
 1996: Raytracing: A full implementation (Student Conference in AKU)
 
 1995: Raytracing: A full implementation (IUT, CSEE seminars)
+
+(back to [homepage](https://sohale.github.io))
