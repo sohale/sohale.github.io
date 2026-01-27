@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sohail Siadatnejad, PhD. Workshops, schools, and intensive courses attended
+---
+
+
 Sohail Siadatnejad
 
 # Advanced Courses, Summer Schools, and Workshops (Academic Professional Development)

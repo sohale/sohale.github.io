@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sohail Siadatnejad, PhD. Talks, Presentations, Public Speaking.
+---
+
 Sohail Siadatnejad
 
 # Selected talks and presentations

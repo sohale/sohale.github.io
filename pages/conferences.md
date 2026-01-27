@@ -1,8 +1,13 @@
+---
+layout: default
+title: Sohail Siadatnejad, PhD, Conferences where I had posters or publications
+---
+
 Sohail Siadatnejad
 
 # Conferences and Workshops — Extended Abstracts, Presentations and Posters
 
-This is not a publicaitons page. This page lists conferences and workshops I attended as a presenter or with posters, including minor student/poster contributions. These entries demonstrate continual engagement with the research community and my long-term direction. This page is separate from publications.
+This is not a publications page. This page lists conferences and workshops I attended as a presenter or with posters, including minor student/poster contributions. These entries demonstrate continual engagement with the research community and my long-term direction. This page is separate from publications.
 
 ## Selected Conferences and Workshops (as Presenter, Poster, or Extended Abstract)
 
