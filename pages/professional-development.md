@@ -36,7 +36,7 @@ For degrees and post-docs, see [education] page.
 - As visitor researcher: (2005–2006) - Tactile psychophysics and statistical grammaer processing, IPM, Tehran, Iran.
 
 - Attended various short intensive courses at IPM, during 2004-2006.
-   * By poeple such as Alessandro Treves (SISSA) (various topics), John Rinzel (Phase plane analysis), Anthony Movshon (Low-level Visual Neuroscience) , Michael Shadlen (Perceptual Decision Making), William Newsome (Perceptual Decision Making), Reza Shadmehr (Motor Neuroscience), Yasser Roudi (Information Theory and memory).
+   * Notable presenters: Alessandro Treves (SISSA) (various topics in Neurobiology modeling and Information), John Rinzel (Phase-plane analysis of bursting), Anthony Movshon (Low-level Vision Neuroscience) , Michael Shadlen (Perceptual Decision Making), William Newsome (Dorsal Cortex low-level Visual Cortex), Reza Shadmehr (Motor Neuroscience), Yasser Roudi (Information Theory and memory), and more.
 
 - Course on Quantum Computing - winter semester 2003. Dept of Physics, SUT (passed).
 
