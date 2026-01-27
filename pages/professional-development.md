@@ -57,9 +57,8 @@ For degrees and post-docs, see [education] page.
 
 - SOTACS 2000 — First Summer School on Theoretical Aspects of Computer Science, School of Computer Science, IPM, July 3–10, 2000  
    * [link](https://math.ipm.ac.ir/conferences/2000/sotacs/sotacs.html)
-   * Notatble presenters Umesh Vazirani & Vijay Vazirani
-   * This was my first encounter with Quantum Computing and Spectral Graph Theory.
-
+   * This was my first encounter with *Quantum Computing* and *Spectral Graph Theory*.
+   * Notatble presenters included Umesh Vazirani & Vijay Vazirani.
 
 
 ## Community and Service as Organizer
