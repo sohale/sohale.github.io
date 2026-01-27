@@ -44,6 +44,8 @@ Some are my work, and some are others' papers. (Poster presentations are not inc
 
 2003: Protein Folding (Biomath seminars)
 
+2002: (Minor course seminar) Non-Smooth Optimisation (for: Non-linear Optimisation course)
+
 2002: Low-latency Realtime Audio Reverberator on FPGA & SPDIF ( FPGA Design Contest, talk and demo, winner entry)
 
 2002: (industry) (Teaching industry courses for some insurance companies).
