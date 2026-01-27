@@ -20,7 +20,6 @@ For degrees and post-docs, see [education] page.
 - 5th C4ML Workshop: Compilers for Machine Learning. May 2024, as part of ACM CGO 2024, Edinburgh, UK. [link](https://c4ml.org/2024/)
 
 - Various INCF workshops and conferences in UK during my PhD study during 2009-2013.
-   * (poster presentation)
    * Edinburgh, York, Manchester, UK.
 
 - Coherent Behavior in Neuronal Networks (2007), Mallorca, Spain, October 17–20, 2007.
@@ -45,7 +44,7 @@ For degrees and post-docs, see [education] page.
 - Workshop on Quantum Computing — Institute for Studies in Theoretical Physics and Mathematics (IPM), Aug 1–5, 2004, Tehran.  
   * [link](https://math.ipm.ac.ir/conferences/2004/qc2004/)
 
-- Intentionality course (Philosophy of Mind), IRIP.
+- Intentionality (an advanced course in Philosophy of Mind), IRIP.
 
 - Philosophy of Mind: Contemporary Readings (course and seminar series based on O'Connor & Robb's 2003 [text book](https://doi.org/10.4324/9780203987698) from Routledge Contemporary Readings in Philosophy), IRIP.
    * Plus follow-up seminars on Philosophy of Mind at IRIP.
