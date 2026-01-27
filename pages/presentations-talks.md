@@ -52,8 +52,10 @@ Some are my work, and some are others' papers. (Poster presentations are not inc
 
 2000: Realtime Audio Processing and Physical modelling (BSc viva and live demo)
 
-1996: Raytracing for photorealism: a rendering engine (Annual Student Conference, AKU)
+1996: Raytracing for photorealism: a rendering engine (Annual Student Conference, AKU), (at age 18)
 
-1995: Raytracing: an implementation (seminar, CSEE departiment, IUT)
+1995: Raytracing: an implementation (seminar, CSEE departiment, IUT), (at age 18)
+
+1995: (Interview, published in magazine): Stereoscopic vision using random-dot stereograms, and software implementation (age 17)
 
 (back to [homepage](https://sohale.github.io))
