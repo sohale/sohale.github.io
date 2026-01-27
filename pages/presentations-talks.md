@@ -2,9 +2,17 @@ Sohail Siadatnejad
 
 # Selected talks and presentations
 
-2013: Quantifying Information in the Brain (Viva)
+(details to be added)
 
-2009: Quantifying Neural Information in Elecrophysiology recordings (Viva)
+2025: A framework for hardware verification for FPGA & ASICS: (presented internally to X-Silicon). Lessons from Software Engineering industry's best practices and DevOps for CPU & GPU hardware design pipelines.
+
+2023: Verification using Unit Testing: the Why.
+
+2019: Predictive Processing in the Brain: Lessons from Neuroscience (Manchester)
+
+2013: Quantifying Information in the Brain (PhD viva)
+
+2009: Quantifying Neural Information in Elecrophysiology recordings (interim viva)
 
 2006: Perceptual Decision Making : A Review.
 
@@ -12,9 +20,9 @@ Sohail Siadatnejad
 
 2006: Simplified Neural modeling (Adaptive SRM)
 
-2005: Oscillations in Parkinson Disease in Dynamical Systems
+2005: Oscillations in Parkinson Disease: phase-planes analysis of Dynamical Systems.
 
-2005: Prediction Error, Reiforcement Learning and the role of Dopamine
+2005: Prediction Error, Reiforcement Learning and the role of Dopamine.
 
 2005: Unifying framework for neuronal assembly dynamics: Neural Assemblies using Mean-field and Renewal Processes (Eggert, van Hemmen et al)
 
