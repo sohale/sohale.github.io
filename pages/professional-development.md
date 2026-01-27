@@ -68,9 +68,9 @@ For degrees and post-docs, see [education] page.
 
 - The Organizer, SUT Biomath Seminars / Journal Club, Dept Mathematical Sciences, SUT (2003-2004)
 
-- For actual university Teaching (lecturer), industry teaching, etc, see: [page].
+- Also: coorganised and ran long-standing book reading groups: "Predictive Processing" (2017-2019), and Phenomenology of Mind (2010-2011).
 
-- Also: organised and ran long-standing book reading groups: "Predictive Processing" (2017-2019), and Phenomenology of Mind (2010-2011).
+- For university teaching (lecturer), industry teaching, etc, see: [page].
 
 Notes:
 - Some entries do not have surviving webpages; they are included for completeness.
