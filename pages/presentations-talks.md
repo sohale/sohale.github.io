@@ -8,7 +8,7 @@ Sohail Siadatnejad
 
 2006: Perceptual Decision Making : A Review.
 
-2005: Tactile Processing in Early Somatosensoty Cortex
+2005: Tactile Processing in Early Somatosensoty Cortex (S1)
 
 2006: Simplified Neural modeling (Adaptive SRM)
 
@@ -16,7 +16,7 @@ Sohail Siadatnejad
 
 2005: Prediction Error, Reiforcement Learning and the role of Dopamine
 
-2005: Neural Assemblies using Mean-field and Renewual Processes (van Hemmen et al)
+2005: Unifying framework for neuronal assembly dynamics: Neural Assemblies using Mean-field and Renewal Processes (Eggert, van Hemmen et al)
 
 2003-2005: (Lecturer of CS university courses at Math department, SUT)
 
@@ -26,7 +26,7 @@ Sohail Siadatnejad
 
 2002: Audio Reverberator (FPGA Design Contest -- winner entry)
 
-2002: Industry teaching (Insurance companies).
+2002: (Teaching industry courses for some insurance companies).
 
 2000: Realtime Audio Processing and Physical modelling (BSc viva and live demo)
 
