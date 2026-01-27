@@ -1,6 +1,10 @@
-# Professional Development (Academic) — Advanced Courses, Summer Schools, and Workshops
+Sohail Siadatnejad
+
+# Advanced Courses, Summer Schools, and Workshops (Academic Professional Development)
 
 This page lists advanced courses, summer schools, workshops, and longer training programs I have undertaken over the years. Many are beyond standard university degrees and reflect sustained learning and development. This page is separate from publications and does not list original research papers; those are shown on dedicated publication pages.
+
+For degrees and post-docs, see [education]
 
 ## Advanced Courses and Summer Schools
 
