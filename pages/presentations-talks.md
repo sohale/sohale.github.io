@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Sohail Siadatnejad, PhD. Talks, Presentations, Public Speaking.
+name: Sohail Siadatnejad, PhD
+title: Talks, Presentations, Public Speaking.
 ---
 
 Sohail Siadatnejad
@@ -19,7 +20,7 @@ Some are my work, and some are others' papers. (Poster presentations are not inc
 
 2013: Quantifying Information in the Brain (PhD viva)
 
-2011: Phase of Firing code and LFP modelling using Infromation Theory (PhD seminar)
+2011: Phase-of-Firing code using LFP modelling and Information Theory (PhD seminar)
 
 2009: Quantifying Neural Information in Elecrophysiology recordings (interim viva)
 
@@ -27,17 +28,17 @@ Some are my work, and some are others' papers. (Poster presentations are not inc
 
 2006: Perceptual Decision Making : A Review (SCS, IPM)
 
-2005: Statistical Grammar Learning (Jenny Safran's theory of language)
+2005: Statistical Grammar Learning (on Jenny R. Saffran's [Predictive] theory in Statistical language learning)
 
 2005: Encoding of Tactile Sensory in Early Somatosensoty Cortex (S1; a paper by A Romo)
 
-2005: Tactile Processing in Afferents and Early Somatosensoty Cortex
+2005: Tactile Processing in Primary Afferents and Early Somatosensoty Cortex (Timescales in somatosensory receptors)
 
-2006: Accurate Adaptive-Threshold Neural Cell Modeling (Adaptive SRM)
+2006: Accurate Adaptive-Threshold Neural Cell Modeling ("Adaptive SRM" model)
 
-2006: Operant conditioning: roles of Dopamine and Serotonin
+2006: Operant conditioning: roles of Dopamine and Serotonin (Daw, Kakade, Dayan; Opponent interactions between serotonin and dopamine[.](https://doi.org/10.1016/s0893-6080(02)00052-7))
 
-2005: Oscillations in Parkinson Disease: phase-planes analysis of Dynamical Systems
+2005: Oscillations in Parkinson Disease: phase-planes analysis of Dynamical Systems (Rubin & Terman; High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model. [.](https://doi.org/10.1023/b:jcns.0000025686.47117.67))
 
 2005: Prediction Error, Reiforcement Learning and the role of Dopamine.
 
