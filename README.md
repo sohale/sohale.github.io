@@ -47,6 +47,18 @@ Hence, I saved and renamed as `_includes/head-custom-google-analytics.html`.
    * It worked. Verified.
 
 
+All files can have a header table md-stlye `---`...
+
+#### Some setting in `_config.yml`
+
+See https://github.com/pages-themes/hacker/blob/master/README.md
+
+* `title:` site title
+* `description:` short description, deault: repor's description.
+* `show_downloads:` false
+* `google_analytics:` (Not working. Ignore)
+* `baseurl:` `""`
+* `url:` `"https://sohale.github.io"`
 
 #### Two deployment Actions:
 

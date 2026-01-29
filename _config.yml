@@ -16,5 +16,9 @@ url: "https://sohale.github.io"
 
 # timezone: Europe/London
 
+title: "Sohail Siadatnejad, PhD"
+description: "Sohail Siadatnejad's homepage"
+show_downloads: false
+# google_analytics: (Not working. Ignore)
 # This would have been good, but GA has changed their snippet. Compare: https://github.com/pages-themes/hacker/blob/master/_includes/head-custom-google-analytics.html
 # google_analytics: YOUR-ID
