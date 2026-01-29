@@ -55,4 +55,4 @@ There are some dpendent repos.
 * theme vs layout
 * theme vs layout vs plugin vs header
 * Actions, jobs, steps
-* a "build" (artifact: invisible, or, exrernal repo: public or private )
+* a "build" (artifact: invisible, or, exrernal repo: public or private ).
