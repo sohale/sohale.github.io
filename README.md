@@ -20,6 +20,10 @@ Each page chooses the layout: `layout` from the "theme". (child: per page/post)
 
 How to [add a Jekyl theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll).
 
+Customise header, et for GA gtag: See your theme's repo. eg:
+* https://github.com/pages-themes/hacker/blob/master/_includes/head-custom-google-analytics.html
+
+
 #### Two deployment Actions:
 
 It's a "remote" Jekyll theme (ie. ayout and include files are provided by the theme’s "gem" and are not copied into your repository). No publish into branches.

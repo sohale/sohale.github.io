@@ -15,3 +15,6 @@ url: "https://sohale.github.io"
 # github: [false]
 
 # timezone: Europe/London
+
+# This would have been good, but GA has changed their snippet. Compare: https://github.com/pages-themes/hacker/blob/master/_includes/head-custom-google-analytics.html
+# google_analytics: YOUR-ID
