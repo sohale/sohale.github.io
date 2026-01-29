@@ -35,6 +35,13 @@ Actions:
 
 Actions, steps, jobs.
 
+#### Two deployment Actions:
+There are some dpendent repos.
+* `demos/` `daylightworldmap` : extrernal repo. private
+* `demos/` `implisolid-build` : external repo. containt a "build"
+* `demos/webgl_triangle_example/` `webgl-exercise` : external repo
+
+
 #### Glossary:
 * "Publishing source"
 * remote_theme
@@ -48,3 +55,4 @@ Actions, steps, jobs.
 * theme vs layout
 * theme vs layout vs plugin vs header
 * Actions, jobs, steps
+* a "build" (artifact: invisible, or, exrernal repo: public or private )
