@@ -73,7 +73,13 @@ Actions:
 * `pages build and deployment`: bulid, report-build-status, deploy
 * commit action: steps `buildMaPage`, `deploy-job`
 
-Actions, steps, jobs.
+Actions, steps, jobs:
+* Action
+   * job
+      * step
+
+Among the two uses here, each action route, has their own source for seccrets / PATs.
+
 
 #### Two deployment Actions:
 There are some dpendent repos.
@@ -87,7 +93,7 @@ There are some dpendent repos.
 * remote_theme
 * plugins
 * header
-* theme
+* theme: full name: "Jekyl Theme"
 * remote theme
 * layout
 * parent layout
