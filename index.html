@@ -340,16 +340,27 @@ app.controller('customersCtrl', function($scope, $http) {
     */
     $scope.skills =
     [
+        {"name": "Rust",
+            "level": "advanced", "desc": "Rust 1.93. lifetimes, traits", "see-also": null /*related*/, featuring: "1", "priority": 1},
         {"name": "C++",
-            "level": "advanced", "desc": "C++14, teaching experience, programming.", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
-        {"name": "JavaScript & node",
+            "level": "advanced", "desc": "C++14, C++23.", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
+        {"name": "JavaScript, NodeJS",
             "level": "advanced", "desc": "recent", "see-also": "", featuring: "?", "priority": 1},
         {"name": "Python",
-            "level": "advanced", "desc": "2 years commercial.", "priority": 1},
+            "level": "advanced", "desc": "3 years commercial.", "priority": 1},
         {"name": "Java",
             "level": "advanced", "desc": "Since 1997.", featuring: null, "priority": 1},
         {"name": "C",
             "level": "advanced", "desc": "", "see-also": "", featuring: "4", "priority": -3},
+        {"name": "Typescript",
+            "level": "intermediate", "desc": "", "see-also": "", featuring: "?", "priority": 1},
+        {"name": "Lean4",
+            "level": "beginner", "desc": "Mathlib, CSLib", "see-also": "", featuring: "", "priority": -1},
+        // {"name": "R",
+        //    "level": "beginner", "desc": "BSSM, MCMC", "see-also": "", featuring: "", "priority": -5},
+        {"name": "CUDA",
+            "level": "intermediate", "desc": "100x on K40 (30x compared to intel multi-core CPU)", "see-also": "", featuring: "", "priority": -1},
+
         // Core programming, algorithm design
     ];
 
