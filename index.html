@@ -158,13 +158,15 @@ h2 {
 
 <h3>Micro CV</h3>
 <div class="div-indent-1">
-<!--  <a href="">CS work</a>-->
+
+
 <input ng-model=collapse_cs type=checkbox>
-<a NOT_ng-click="doSomething($event)" href="">
-CS work</a>
+   <a NOT_ng-click="doSomething($event)" href="">
+      CS / Engineering</a>
+    <!-- CS Work. CS Industry. CS Engineering.  CS Engineering/Industry. -->
 
 <input ng-model=collapse_ns type=checkbox>
-  <a href="./neurosci.html">Neuroscience</a><br/>
+  <a href="./neurosci.html">Neuroscience</a>
 
 <input ng-model=collapse_physics type=checkbox>
   <a href="">Physics</a><br/>
@@ -343,15 +345,15 @@ app.controller('customersCtrl', function($scope, $http) {
         {"name": "Rust",
             "level": "advanced", "desc": "Rust 1.93. lifetimes, traits", "see-also": null /*related*/, featuring: "1", "priority": 1},
         {"name": "C++",
-            "level": "advanced", "desc": "C++14, C++23.", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
-        {"name": "JavaScript, NodeJS",
-            "level": "advanced", "desc": "recent", "see-also": "", featuring: "?", "priority": 1},
+            "level": "advanced", "desc": "C++14, C++23", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
+        {"name": "JavaScript",
+            "level": "experienced", "desc": "JS, NodeJS, Emscripten, etc", "see-also": "", featuring: "?", "priority": 1},
         {"name": "Python",
             "level": "advanced", "desc": "3 years commercial.", "priority": 1},
         {"name": "Java",
-            "level": "advanced", "desc": "Since 1997.", featuring: null, "priority": 1},
+            "level": "advanced", "desc": "Since 1997", featuring: null, "priority": 1},
         {"name": "C",
-            "level": "advanced", "desc": "", "see-also": "", featuring: "4", "priority": -3},
+            "level": "advanced", "desc": "Embedded", "see-also": "", featuring: "4", "priority": -3},
         {"name": "Typescript",
             "level": "intermediate", "desc": "", "see-also": "", featuring: "?", "priority": 1},
         {"name": "Lean4",
