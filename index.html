@@ -369,25 +369,30 @@ app.controller('customersCtrl', function($scope, $http) {
     $scope.skills =
     [
         {"name": "Rust",
-            "level": "advanced", "desc": "Rust 1.93. lifetimes, traits", "see-also": null /*related*/, featuring: "1", "priority": 1},
+            "level": "advanced", "desc": "Rust 1.93", "see-also": null /*related*/, featuring: "6 months commercial", "priority": 1},
         {"name": "C++",
             "level": "advanced", "desc": "C++14, C++23", "see-also": "Emscripten" /*related*/, featuring: "1", "priority": 1},
         {"name": "JavaScript",
-            "level": "experienced", "desc": "JS, NodeJS, Emscripten, etc", "see-also": "", featuring: "?", "priority": 1},
+            "level": "experienced", "desc": "JS, NodeJS, Emscripten", "see-also": "", featuring: "5+ years comercial", "priority": 1},
         {"name": "Python",
-            "level": "advanced", "desc": "3 years commercial.", "priority": 1},
+            "level": "advanced", "desc": "numpy, pytorch, tensorflow2, sympy", featuring: "4+ years commercial", priority: 1},
         {"name": "Java",
-            "level": "advanced", "desc": "Since 1997", featuring: null, "priority": 1},
+            "level": "advanced", "desc": "", featuring: "since 1997", "priority": 1},
         {"name": "C",
-            "level": "advanced", "desc": "Embedded", "see-also": "", featuring: "4", "priority": -3},
+            "level": "advanced", "desc": "embedded", "see-also": "", featuring: "since 1991, Lattice C (AmigaOS), Watcom C, Turbo C, Broland C (DOS), Win32, Linux, Arm Embedded, ", "priority": -3},
         {"name": "Typescript",
-            "level": "intermediate", "desc": "", "see-also": "", featuring: "?", "priority": 1},
+            "level": "intermediate", "desc": "zod, redux, react 18", "see-also": "", featuring: "?", "priority": 1},
         {"name": "Lean4",
             "level": "beginner", "desc": "Mathlib, CSLib", "see-also": "", featuring: "", "priority": -1},
         // {"name": "R",
         //    "level": "beginner", "desc": "BSSM, MCMC", "see-also": "", featuring: "", "priority": -5},
         {"name": "CUDA",
-            "level": "intermediate", "desc": "100x on K40 (30x compared to intel multi-core CPU)", "see-also": "", featuring: "", "priority": -1},
+            "level": "intermediate", "desc": "100x on K40 (30x compared to intel multi-core CPU)", "see-also": "", featuring: "cloud GPU", "priority": -1},
+
+        { name: "BASIC",
+            "level": "intermediate", "desc": "since 1987", "see-also": "", featuring: "C128, C64, Amiga Basic, GFA Basic, Easy Amos, GW-BAsic, BasicA, Quick Basic, Visual Basic, VBScript", "priority": -7},
+        { name: "Pascal",
+            "level": "intermediate", "desc": "since 1990", "see-also": "", featuring: "since 1990, Object Pascal, Turbo Pascal, Borland Pascal", "priority": -5},
 
         // Core programming, algorithm design
     ];
